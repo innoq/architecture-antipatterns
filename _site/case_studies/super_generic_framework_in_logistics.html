@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>Super-generic framework in logistics | Your awesome title</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Your awesome title" />
+<meta property="og:title" content="Super-generic framework in logistics" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/case_studies/super_generic_framework_in_logistics.html" />
+<meta property="og:url" content="http://localhost:4000/case_studies/super_generic_framework_in_logistics.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Your awesome title" />
+<meta property="twitter:title" content="Super-generic framework in logistics" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Super-generic framework in logistics","url":"http://localhost:4000/case_studies/super_generic_framework_in_logistics.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,51 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 22, 2022</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2022/07/22/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">Super-generic framework in logistics</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="super-generic-framework-in-logistics">Super-generic framework in logistics</h1>
+
+<p>Author: Sven</p>
+
+<h2 id="name-of-the-example">Name of the example:</h2>
+<p>The one order engine which solves it all</p>
+
+<h2 id="description">Description:</h2>
+<p>A very large logistics company hired a consultancy which to implement a web shop for buying products of that logistics company. At the heart of the system was a proprietary order engine built with a generic order framework. We reviewed the system and found the following behaviour:
+Everything was an order. If you want to change your address, buy something or change credit card information, you use the Order class and you configure it. The framework figures out what to do by parsing meta information and bit masks. Based on the bit mask, SQL statements have been assembled.
+The system had only two database tables: transaction and master data. The tables were incredibly huge because they had to keep all kinds of transactions and all kinds of master data. Relations were managed by deep “connect-by-prior” trees in Oracle. Whatever couldn’t be mapped to the table “structure” had been piggybacked in a “data” varchar2 field. The framework knew what to do with the data field by understanding which bit mask required which parsing of that varchar2 field. In many cases, the framework parsed the value to integer, long or arrays of strings.
+There were no unit tests. The consultancy said that “the system is too complex for unit tests”.
+It took almost two weeks to set up the developer workstation for developers not using Linux. Linux users could luckily make it in a few days. There were so many scripts to run to get Weblogic up and running with specific “framework plugins” and no one seemed to get it right. There was no documentation, everything was try and error.</p>
+
+<h2 id="what-is-the-systems-background">What is the system’s background?</h2>
+<p>It looked like Enterprise Java, but with a lot of specific custom implementations
+Oracle database, Weblogic application server
+Huge organization
+First steps of the organisation to sell digital products
+A sister company offered a similar service, but with way lower development costs. That triggered the review.</p>
+
+<h2 id="what-was-the-good-idea">What was the good idea?</h2>
+<p>There was the belief to build a generic order engine which could be reused acrossed many projects of the client and projects with other clients.</p>
+
+<h2 id="what-were-the-bad-consequences-why-was-everything-bad">What were the bad consequences, why was everything bad?</h2>
+<p>Implementing new features took forever. It was hard to understand the code base, but it was even harder to test it. Unit tests were not possible, integration tests were possible, but the feedback cycle was very long. The application domain itself was simple, but still we had enormous problems where you wouldn’t thought you will have them. The idea to have two generic database table turned out to be a big performance bottleneck which required very specific Oracle knowledge to solve.</p>
+
+<h2 id="which-patterns-were-encountered">Which patterns were encountered?</h2>
+<p>Over-Engineering - the customer wanted a simple web shop for one simple product. The consultancy delivered a highly complex system which could theoretically deal with a magnitude of products. Furthermore the system didn’t use existing technologies, they reinvented the wheel. Because unit tests where not possible, they came up with their own integration testing framework and many other “not invented here” syndrome solutions.
+Misapplied genericity - the customer wanted a solution for a specific problem: a web shop for one product. The solution was a system which solves all web shop problems in the world. However, the solution didn’t work properly, was too expensive and too slow. 
+Abstraction bias - everything is an order. An order of a product is an order. But also changing address data or the password is an order. Everything is an order, where a simple CRUP application could have done it</p>
+
+<h2 id="how-was-the-situation-resolved">How was the situation resolved?</h2>
+<p>The original consultancy got fired and a new one got hired to develop the system from scratch.</p>
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

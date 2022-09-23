@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>Using a BPMN engine for the store checkout process | Your awesome title</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Your awesome title" />
+<meta property="og:title" content="Using a BPMN engine for the store checkout process" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/case_studies/bpmn_engine_for_everything.html" />
+<meta property="og:url" content="http://localhost:4000/case_studies/bpmn_engine_for_everything.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Your awesome title" />
+<meta property="twitter:title" content="Using a BPMN engine for the store checkout process" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Using a BPMN engine for the store checkout process","url":"http://localhost:4000/case_studies/bpmn_engine_for_everything.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,50 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 22, 2022</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2022/07/22/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">Using a BPMN engine for the store checkout process</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="using-a-bpmn-engine-for-the-store-checkout-process">Using a BPMN engine for the store checkout process</h1>
+<p><em>Author: Tobias</em></p>
+
+<h2 id="description">Description</h2>
+<p>As the existing store checkout system of an international commerce company got more complicated over time, the companys management decided to initiate a project to implement a new system based on modern technologies.</p>
+
+<h2 id="what-is-the-systems-background">What is the system’s background?</h2>
+<ul>
+  <li>mainly Java and TypeScript</li>
+  <li>Microservices</li>
+  <li>internal customers and users are not located close to each other</li>
+</ul>
+
+<h2 id="what-was-the-good-idea">What was the good idea?</h2>
+<p>Since the old store checkout system had a lot of complex and intransparent processes, the team decided that they wanted to use some technology which provides insight into the running processes. They chose to go for a tool that allowed for graphical process models, to provide this insight into the running processes.
+This should help to understand the system and improve the maintainability.
+Because they knew a competitor built its online checkout with the same technology, the decision to use an BPMN engine was made. This enabled anyone to define business processes in a visual editor and let the engine execute the underlying data representation. The only programmatic task would be the implementation of the specific BPMN tasks.</p>
+
+<h2 id="what-happened-was-there-a-turning-or-tipping-point">What happened, was there a turning or tipping point?</h2>
+<p>At the beginning of the project, the first results were delivered really fast. But with an increasing amount of microservices and some requirements, like an automatic logout for active sessions, the development got slower every sprint.
+The main reason was that the BPMN engine was not intended to be a session storage or state machine with a lot of circular steps, but the project used it like that. In contrast to that, the competitor, which was used as role model, had an linear checkout process for which a BPMN engine is predestined. 
+But even without that knowledge a look at the BPMN diagram that defined the running checkout process showed that this process was messed up. 
+Unfortunately all discussions about alternatives to this architecture achieved nothing since some stakeholders were emotionally attached to the idea of using the BPMN engine and defended it against all rational arguments.</p>
+
+<h2 id="what-were-the-bad-consequences">What were the bad consequences?</h2>
+<p>The first consequence was that no progress could be made anymore, because most of the features couldn’t be implemented within the BPMN engine. Also, most of the time was spent to fix the current process and the data transfer to the client.
+Also one team member left the project, because he didn’t see any possibility to have a better - more appropriate to the problem - solution, since the discussions were not based on technical merits but on emotional attachment.</p>
+
+<h2 id="which-patterns-were-encountered">Which patterns were encountered?</h2>
+<ul>
+  <li>Cargo Culting</li>
+  <li>Emotional Misattachment</li>
+</ul>
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

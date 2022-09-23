@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>App Development with a cross platform framework | Your awesome title</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Your awesome title" />
+<meta property="og:title" content="App Development with a cross platform framework" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/case_studies/app_development_with_cross_plattform_framework.html" />
+<meta property="og:url" content="http://localhost:4000/case_studies/app_development_with_cross_plattform_framework.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Your awesome title" />
+<meta property="twitter:title" content="App Development with a cross platform framework" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"App Development with a cross platform framework","url":"http://localhost:4000/case_studies/app_development_with_cross_plattform_framework.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,45 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 22, 2022</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2022/07/22/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">App Development with a cross platform framework</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="app-development-with-a-cross-platform-framework">App Development with a cross platform framework</h1>
+
+<h2 id="description">Description</h2>
+<p>When developing an App for an insurance company, the decision was made to build the app with a cross platform JavaScript framework.</p>
+
+<h2 id="what-is-the-systems-background">What is the system’s background?</h2>
+<p>The plan of the system was to build an app for Android and iOS. The app should be a representation of the companies website in the app stores. The plan was to use a JavaScript framework for cross platform development based on Cordova.</p>
+
+<h2 id="what-was-the-good-idea">What was the good idea?</h2>
+<p>The good idea was that the employees of the company would only have to learn how to develop in JavaScript. All the developers that were put on the task to develop the app were previously Java or COBOL developers. The point was to make them learn only one new programming language. Also the plan was that all developers could work on the same app while otherwise the company would have to set up separate development teams for iOS and Android.</p>
+
+<h2 id="what-were-the-bad-consequences-why-was-everything-bad">What were the bad consequences, why was everything bad?</h2>
+<p>When the app was planned, the goal was to recreate the functions that the company website provided to the customer, just as an app in the app stores. When development started it became clear very fast, that what was actually wanted was an app with many “native” features. The first thing that came up was the login for example. When on the website the user had to log in via username and password, in the app the user should be able to save the credentials and use fingerprint or face recognition for the login. When development continued, more and more features a user would expect from an app were wanted, features the website never had. Many of those features were using “native” functions of the underlying operating system on the mobile platform. These functions had wrappers in JavaScript in the cross platform framework. The problem was that the operating system api changed regularly and the open source cross platform framework would not be as fast in changing the wrapping code resulting in breaking functions in the app.</p>
+
+<h2 id="what-happened-was-there-a-turning-or-tipping-point">What happened, was there a turning or tipping point?</h2>
+
+<p>In the end employees from the company had to contribute to the open source cross platform framework to fix the needed functions. This resulted in them not only having to learn JavaScript but also parts of Swift / Objective C and in parts also Ruby wich was used by the cross platform framework for code generation.</p>
+
+<h2 id="how-was-the-situation-resolved">How was the situation resolved?</h2>
+
+<p>The situation was not resolved, the problem continued. The situation improved however due to the developers getting more and more firm with all the technologies. However the good idea never came to a conclusion.</p>
+
+<h2 id="which-patterns-were-encountered">Which patterns were encountered?</h2>
+
+<ul>
+  <li><a href="/patterns/misapplied_genericity.html">Misapplied Genericity</a></li>
+</ul>
+
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

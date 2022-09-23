@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>Over-Configurability in a (huuuuge) eCommerce System | Your awesome title</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Your awesome title" />
+<meta property="og:title" content="Over-Configurability in a (huuuuge) eCommerce System" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/case_studies/overconfigurability_in_a_huge_ecommerce_system.html" />
+<meta property="og:url" content="http://localhost:4000/case_studies/overconfigurability_in_a_huge_ecommerce_system.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Your awesome title" />
+<meta property="twitter:title" content="Over-Configurability in a (huuuuge) eCommerce System" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Over-Configurability in a (huuuuge) eCommerce System","url":"http://localhost:4000/case_studies/overconfigurability_in_a_huge_ecommerce_system.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,73 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 22, 2022</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2022/07/22/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">Over-Configurability in a (huuuuge) eCommerce System</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="over-configurability-in-a-huuuuge-ecommerce-system">Over-Configurability in a (huuuuge) eCommerce System</h1>
+<p>Author: Gernot, Christine</p>
+
+<p>A huge organization developed and operated a system for selling special kinds of goods to their customers.</p>
+
+<h2 id="what-is-the-systems-background">What is the system’s background</h2>
+
+<ul>
+  <li>Cobol, Mainframe</li>
+  <li>Huge (government-oriented) organization</li>
+  <li>Mass-Market</li>
+  <li>Formal requirements (availability, guaranteed fair pricing…)</li>
+  <li>Complex pricing scheme</li>
+  <li>Several (heavily disagreeing) business-units, which struggle about business-priorities and about (shared and centralized) development capacity.</li>
+</ul>
+
+<p>To understand the system and its properties, one needs to know a bit about the goods the systems deals with: They</p>
+
+<p>are in high demand, so the company sells hundreds-of-thousand per day.
+can be bought both in shops distributed all over the country, and online (both via browser and a smartphone app)
+have to be individualized or customized
+Have a complicated pricing model: Prices are calculated depending on product-factors (let’s call them size, color, texture, material here), your buying history, the date or season or numerous other factors.
+Parts of this pricing model depends on external entities (like governmental rules, international trading partners involved in these products etc)
+People can buy vouchers, rebate-cards, can get volume- or company discounts, or things like repeated-customer-discounts…
+There are also group discounts, if a group of people buys the product together.
+Both pricing and availability of goods changes all the time, therefore we need rather high flexibility in that respect.</p>
+
+<p>The system once started as a collection of mainframe programs, some of which are still in operation and heavy use - especially those integrating enterprises and data from other countries (!). 
+As the organization is extremely risk-aware, they operated more than 6 (!) test stages for their system. At least 5 of these stages are responsible for certain parameters of product configuration, and thus need to test how their parameters influence overall pricing and availability of the products. Sounds complicated? Yeah, it really is…</p>
+
+<p>In production environments, all these configurations culminate in a “data driven pricing”, where the data resides in a plethora of different formats and sources: Some configuration is stored in mainframe databases, others in relational stores and others in configuration files (!).</p>
+
+<p>To make flexibility even more intense, the developers included more than 300 (!) “feature toggles” in their code, but only about half of those were documented :-(</p>
+
+<h2 id="what-was-the-good-idea">What was the good idea?</h2>
+<p>(optional: What happened, was there a turning or tipping point?)</p>
+
+<p>Configurability of numerous system parameters (data-driven product configuration, pricing, rebates, storefront-details) - so that business and operations can change product and pricing parameters and even functional behavior of the system without re-deploying the overall system.
+Multi-Paradigm Development: Specific technologies enabled fast prototyping/development of difficult features
+Integration of (too?) many existing systems -&gt; fast time-to-market, quick integration is faster (in the short term) than a “solid” integration</p>
+
+<h2 id="what-were-the-bad-consequences-why-was-everything-bad">What were the bad consequences, why was everything bad?</h2>
+
+<p>Overly large and heterogeneous development team (&gt;150 persons from different companies), making development very expensive (and slow, see below)
+Time-to-market became slower and slower, due to 
+overwhelming complexity of the overall system
+organizational dependencies between sub-teams</p>
+
+<p>Lack of persistent knowledge about the system and its operation (missing overview-documentation)
+No overview of configuration options (the official feature-toggle documentation covered only 50% of the more than 300 existing toggles)</p>
+
+<p>Operational instability: increasing number of severe runtime issues (system not available)
+Many regression errors (errors that surfaced again, although they had already been fixed in a prior version)</p>
+
+<h2 id="which-patterns-were-encountered">Which patterns were encountered?</h2>
+<p>(optional: How was the situation resolved?)</p>
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

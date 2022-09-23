@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>Life Insurance System with Ingenious Legacy Tech Stack | Your awesome title</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Your awesome title" />
+<meta property="og:title" content="Life Insurance System with Ingenious Legacy Tech Stack" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/case_studies/life_insurance_system_with_ingenious_legacy_tech_stack.html" />
+<meta property="og:url" content="http://localhost:4000/case_studies/life_insurance_system_with_ingenious_legacy_tech_stack.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Your awesome title" />
+<meta property="twitter:title" content="Life Insurance System with Ingenious Legacy Tech Stack" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Life Insurance System with Ingenious Legacy Tech Stack","url":"http://localhost:4000/case_studies/life_insurance_system_with_ingenious_legacy_tech_stack.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,77 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 22, 2022</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2022/07/22/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">Life Insurance System with Ingenious Legacy Tech Stack</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="life-insurance-system-with-ingenious-legacy-tech-stack">Life Insurance System with Ingenious Legacy Tech Stack</h1>
+
+<h2 id="description">Description</h2>
+<p>An insurance company developed a large and complex system to handle its life insurance policies. Due to the mixture of different technologies and paradigms, the system got very hard to maintain. The deployment cyle of 6 month was much too long for business requirements.</p>
+
+<h2 id="what-is-the-systems-background">What is the system’s background?</h2>
+<p>The system had already been in production for about a decade and the current size of the maintenance team was about 100 people working full-time.</p>
+
+<p>Insurance policies have a very long life cycle, typically spanning decades. In fact it’s quite normal for a system like this to never have its data migrated once a successor has been built; instead, you simply keep it running until all the policies handled by it are terminated (i.e., everyone has been paid out because they reached retirement age – or died).</p>
+
+<p>The system had numerous connections to the outside world via integrations. Furthermore, it had a GUI client for internal staff, built using SmallTalk. The client communicated to a mainframe system via the CICS transaction monitor, where the core database and policy life-cycle logic was implemented in COBOL. The core premium calculation component was built in C++ because of an existing library. It was shared with both, SmallTalk client and mainframe.</p>
+
+<p>A model-driven design was used. An UML model for the contracts was maintained with IBM Rational® Rose. Code for the serialization in the DB2 was generated with a self written mapper. Futhermore, the objects of the C++ and SmallTalk client were generated with a self written OO mapper. The model was used for the communication between the three components of the system as well.</p>
+
+<p>The SmallTalk team knew object oriented (OO) programing and pushed the use of OO in the non OO world of COBOL. (Knowledge Tunnelling)</p>
+
+<h2 id="what-were-the-good-ideas">What were the good ideas?</h2>
+<ul>
+  <li>Writing the GUI client with SmallTalk in that time was state of the art.</li>
+  <li>Buying and using an existing software written in C++ for the premium calculation instead of writing it from scratch.</li>
+  <li>Common concepts and patterns shared in the components of a system.</li>
+</ul>
+
+<h2 id="what-were-the-bad-consequences-why-was-everything-bad">What were the bad consequences, why was everything bad?</h2>
+<ul>
+  <li>The time to develop features was too high because: The Model-driven approach created a massive centralization bottleneck (only two weeks of a six-month cycle to make model changes). There was just one person able to make those changes.</li>
+  <li>The pressure to get features implemented led to “re-use” of existing attributes for other purposes. These attributes had to be renamed in the next release cycle. (Failing Rigidity)</li>
+  <li>The attempt to create an OO environment in COBOL created performance issues for batch processing.</li>
+  <li>Objects changed. Therefore, already serialized objects needed to be migrated to newer object versions.</li>
+  <li>High maintenance costs.</li>
+</ul>
+
+<h2 id="what-happened-was-there-a-turning-or-tipping-point">What happened, was there a turning or tipping point?</h2>
+<ul>
+  <li>The self written OO system led to high complexity and caused more problems than it solved.</li>
+  <li>The highly proprietary custom object structures led to integration problems. (Knowledge Tunnelling)</li>
+</ul>
+
+<h2 id="how-could-the-situation-be-resolved">How could the situation be resolved?</h2>
+<ul>
+  <li>We would suggest to introduce a more flexible key-value store in the model as a short-term patch.</li>
+  <li>In the long run, we would modulerise the system into easier to maintain sub-systems based on bounded contexts (e.g. Domain Driven Design). The new sub-systems would not share a common model anymore. Each sub-system would maintain its own model (Self Contained Systems). Smaller teams could work on single components independently with shorter release cycles.</li>
+</ul>
+
+<h2 id="how-to-avoid-such-a-situation">How to avoid such a situation?</h2>
+<ul>
+  <li>Do not use a common data model in multiple sub-systems.</li>
+  <li>Do not write OO mappers yourself.</li>
+  <li>Do not use OO mappers when you don’t need to.</li>
+  <li>Avoid organizational bottlenecks.</li>
+  <li>Release often. Use a Continuous Integration and Deployment. (CI/CD pipeline)</li>
+</ul>
+
+<h2 id="which-patterns-were-encountered">Which patterns were encountered?</h2>
+
+<ul>
+  <li>Knowledge Tunnelling</li>
+  <li>Failing Rigidity</li>
+  <li>(Data Model Bypass)</li>
+</ul>
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">

@@ -33,8 +33,8 @@ Software projects are divided into several modules at run time (e.g. services, l
 - Merge modules which are usually deployed/modified together.
 
 ## Related Patterns
-- Cargo-Culting
+- [Cargo-Culting]
 - Under-Modularization
 
+[Cargo-Culting]: https://gitlab.innoq.com/innoq/architecture-antipatterns/-/blob/master/patterns/cargo_culting.md
 [Yagni]: https://www.martinfowler.com/bliki/Yagni.html
-

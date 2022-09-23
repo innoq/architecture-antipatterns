@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>Under-Modularization | Your awesome title</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Your awesome title" />
+<meta property="og:title" content="Under-Modularization" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/patterns/under_modularization.html" />
+<meta property="og:url" content="http://localhost:4000/patterns/under_modularization.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Your awesome title" />
+<meta property="twitter:title" content="Under-Modularization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Under-Modularization","url":"http://localhost:4000/patterns/under_modularization.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body><header class="site-header" role="banner">
@@ -36,16 +36,66 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 22, 2022</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2022/07/22/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+        <article class="post">
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+  <header class="post-header">
+    <h1 class="post-title">Under-Modularization</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="under-modularization">Under-Modularization</h1>
+
+<h2 id="description">Description</h2>
+<p>Software projects are divided into too few modules at run time (e.g. containers) or build time (e.g. Maven modules, packages). This modularization has disadvantages compared to a modularization into more modules. The modules are too big and therefore harder to understand, maintain, secure, deploy and scale horizontally. Due to missing boundaries in the code the risk of dependencies and data sharing across different functions increases.</p>
+
+<h2 id="what-are-some-examples">What are some examples?</h2>
+<ul>
+  <li><a href="http://laputan.org/mud/">Big Ball of Mud</a></li>
+  <li>certain monolithic applications</li>
+</ul>
+
+<h2 id="why-does-this-happen">Why does this happen?</h2>
+<ul>
+  <li>Old project structures. E.g. certain COBOL applications.</li>
+  <li>Uncontrolled software growth.</li>
+  <li>Time pressure.</li>
+  <li>Low budget.</li>
+  <li>Organization issues: No clear vision for the overall modularization.</li>
+  <li>A lack of architecture and technology knowledge/experience.</li>
+  <li>A lack of domain knowledge.</li>
+</ul>
+
+<h2 id="how-can-we-avoid-getting-into-the-situation-in-the-first-place">How can we avoid getting into the situation in the first place?</h2>
+<ul>
+  <li>Create meaningful modules which emphasize important architectural boundaries. Cut your modules by bounded contexts. (Domain-driven Design)</li>
+  <li>Do internal and external reviews regularly to get feedback to your modularization early.</li>
+  <li>Split your project into more modules as soon as you benefit from it. For example, when:
+    <ul>
+      <li>Code is reused</li>
+      <li>Code is maintained by another team</li>
+      <li>The performance is insufficient at build/run time</li>
+      <li>Modules get too big/complex</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="what-are-suggestions-to-get-out-of-the-situation-if-we-ended-up-in-it">What are suggestions to get out of the situation if we ended up in it?</h2>
+<ul>
+  <li>Split modules based on the reviews of the modularization.</li>
+  <li>Rewrite or refactor the system or its parts.</li>
+</ul>
+
+<h2 id="related-patterns">Related Patterns</h2>
+<ul>
+  <li><a href="http://laputan.org/mud/">Big Ball of Mud</a></li>
+  <li>Over-Modularization</li>
+  <li>Never change a running system</li>
+</ul>
+
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
