@@ -1,6 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Architecture Antipatterns
 ---
+
+## Who are we?
+Personen
+
+## How can You Contribute?
+github discussion
