@@ -28,9 +28,9 @@ The chamber of commerce of that country offered at that time (2015) only one way
 * Some developers had too much power in the organisation because of their very specific knowledge
 
 ## Which patterns were encountered?
-Domain allergy - although there was an incredible amount of tacit domain knowledge, nobody cared about explicitely creating a domain model 
+[Domain allergy](../patterns/domain_allergy.md) - although there was an incredible amount of tacit domain knowledge, nobody cared about explicitely creating a domain model 
 Detail exposure - the two domain classes were spread across the code. Whoever wanted to do something, analysing data, fraud detection, indexing a search engine, calculate costs, etc. required extrem detailed knowledge about the generic model
-Under modularization - the system had almost a good modularization, but: the only problem was that all those nice modules shared the two domain classes, their database access and several core utilities. This core grew and grew with every new functionality and eventually it became the largest part of the system. 
+[Under modularization](../patterns/under_modularization.md) - the system had almost a good modularization, but: the only problem was that all those nice modules shared the two domain classes, their database access and several core utilities. This core grew and grew with every new functionality and eventually it became the largest part of the system. 
 
 ## How was the situation resolved?
 First and foremost we had to convince the lead developer, who created the domain model, that it wasn’t a good idea. He really and honestly made the impression that he thought it is a good idea. Then we introduced specific models piece by piece and created an anti-corruption layer to the storage. Eventually, but I left the project too early, the plan was to strangulate the whole application. The database was still two classes, but the rest of the application used proper domain models. When this is done, we can start refactoring the database and getting rid of the anti-corruption layer. However, it was still a good idea to import the CSV into a existing structure of two classes (see “what was the good idea”), but in a second step, the data had to be transformed in proper domain classes.

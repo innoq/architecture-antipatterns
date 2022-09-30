@@ -3,6 +3,7 @@
 ## Description
 
 ## What are some examples?
+- [Global eCommerce B2B offering](../case_studies/global_ecommerce_b2b_offering.md)
 
 ## Why does this happen?
 

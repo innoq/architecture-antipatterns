@@ -12,6 +12,8 @@ Durch den Fokus auf die Komplexität werden die eigentlich wichtigen Businessfun
 
 ## What are some examples?
 Aufteilung eines Kassensystems in zu viele Services
+- [Generic Product model for 12 insurance products](../case_studies/generic_product_model_for_12_insurance_products.md)
+
 
 ## Why does this happen?
 ## How can we avoid getting into the situation in the first place?

@@ -25,5 +25,5 @@ The first consequence was that no progress could be made anymore, because most o
 Also one team member left the project, because he didn't see any possibility to have a better - more appropriate to the problem - solution, since the discussions were not based on technical merits but on emotional attachment.
 
 ## Which patterns were encountered?
-- Cargo Culting
-- Emotional Misattachment
+- [Cargo Culting](../patterns/cargo_culting.md)
+- [Emotional Misattachment](../patterns/emotional_misattachment.md)

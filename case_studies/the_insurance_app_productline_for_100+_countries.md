@@ -31,12 +31,12 @@ There was the belief that fancy and expensive features such as chatbots would be
 * Developing a new feature required efforts on several layers (app, middleware, backend), which have been developed by different teams in different countries (Horizontalism, Generic Conway Failure).
 
 # Which patterns were encountered?
-* Misapplied generacity
+* [Misapplied generacity](../patterns/misapplied_genericity.md)
 * Centralisation bottleneck
 * Generic Conway Failure
 * Knowledge Tunneling
 * Horizontalism
-* Emotional misattachment
+* [Emotional misattachment](../patterns/emotional_misattachment.md)
 
 # How was the situation resolved?
 * Project has been restarted: large countries develop the App on their own. Small countries become a default App.

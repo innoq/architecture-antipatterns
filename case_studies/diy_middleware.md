@@ -20,7 +20,7 @@ It was very complicated to set up a software due sparse documentation.
 Each time a problem arouse one of the middleware team was involved. When a new piece of software was running on a developer machine it was an enormous effort to get it running in production environment.
 
 ## Which patterns were encountered?
-Emotional Attachment
+[Emotional Attachment](../patterns/emotional_misattachment.md)
 
 ## How was the situation resolved
 In this case it would have been easy to use a standard industrial solution. 
