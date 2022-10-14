@@ -1,4 +1,5 @@
-# Infrastructure Ignorance
+# Infrastructure Ignorance 🚧
+*Author: Andreas, Theo, Christian*
 
 Ignoring the target environment, e.g. hardware performance, network topology and quality, power limitations during (initial) design or/and development. This lead to systems which do not meet the requirments and that will be hard or even impossible to fix later.
 
@@ -15,6 +16,8 @@ Developers tend to focus too much on the business logic. Infrastructure is an im
 * Developing a kiosk system only on the developer laptop but not on the real hardware. 
 * Using blindly all cloud infrastructure like istio 
 * Trying to use highly distributed services on a slow intranet.
+
+🚧 missing examples in case studies 🚧
 
 ## Why does this happen?
 * Focussing too much on the developing code, ignoring the target environment

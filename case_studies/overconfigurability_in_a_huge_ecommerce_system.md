@@ -1,4 +1,4 @@
-# Over-Configurability in a (huuuuge) eCommerce System
+# Over-Configurability in a (huuuuge) eCommerce System 🚧
 Author: Gernot, Christine
 
 A huge organization developed and operated a system for selling special kinds of goods to their customers. 

@@ -1,5 +1,5 @@
-# Over-Modularization
-
+# Over-Modularization ✅
+*Author: Andreas, Theo, Christian, Felix*
 ## Description
 Software projects are divided into several modules at run time (e.g. services, lambdas) or build time (e.g. Maven modules, packages). This modularization has disadvantages compared to a modularization into fewer modules. It adds *unnecessary* complexity. Therefore, the project becomes harder to understand and debug for developers. Over-Modularization could lead to higher compile times. Additionally the performance at run time could be inferior compared to a modularization into fewer modules.
 

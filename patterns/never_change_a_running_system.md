@@ -1,4 +1,4 @@
-# Never change a running system
+# Never change a running system 🚧
 *Author(s): 
 
 ## Short summary
@@ -17,6 +17,9 @@ Often this results in reimplementing/reverse engineering the system. This comes 
 * Old system that is not in the center of attraction, where nobody wants to work, because it “doesn’t matter”.
 * System written in a legacy language, where it is hard to find new people taking over.
 * Old system that does not get updated and has a lot of legacy libraries full of potential security risks.
+
+🚧 missing examples in case studies 🚧
+
 
 
 ## Why does this happen?

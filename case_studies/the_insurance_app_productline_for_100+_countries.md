@@ -1,4 +1,4 @@
-# The Insurance App Productline for 100+ countries
+# The Insurance App Productline for 100+ countries ✅
 Author: Sven
 
 # Name of the example:
@@ -32,10 +32,10 @@ There was the belief that fancy and expensive features such as chatbots would be
 
 # Which patterns were encountered?
 * [Misapplied generacity](../patterns/misapplied_genericity.md)
-* Centralisation bottleneck
-* Generic Conway Failure
-* Knowledge Tunneling
-* Horizontalism
+* [Centralization bottleneck](../patterns/centralization_bottleneck.md)
+* [Generic Conway Failure](../patterns/generic_conway_failure.md)
+* [Knowledge Tunneling](../patterns/knowledge_tunneling.md)
+* [Horizontalism](../patterns/horizontalism.md)
 * [Emotional misattachment](../patterns/emotional_misattachment.md)
 
 # How was the situation resolved?

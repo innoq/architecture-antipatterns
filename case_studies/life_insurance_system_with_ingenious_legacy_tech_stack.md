@@ -1,4 +1,5 @@
-# Life Insurance System with Ingenious Legacy Tech Stack
+# Life Insurance System with Ingenious Legacy Tech Stack ✅
+*Author Stefan*
 
 ## Description
 An insurance company developed a large and complex system to handle its life insurance policies. Due to the mixture of different technologies and paradigms, the system got very hard to maintain. The deployment cyle of 6 month was much too long for business requirements.
@@ -43,6 +44,6 @@ The SmallTalk team knew object oriented (OO) programing and pushed the use of OO
 
 ## Which patterns were encountered?
 
-* Knowledge Tunnelling
-* Failing Rigidity
-* (Data Model Bypass)
+* [Knowledge Tunnelling](../patterns/knowledge_tunneling.md)
+* [Failing Rigidity](../patterns/failing_rigidity.md)
+* [Data Model Bypass](../patterns/data_model_bypass.md)

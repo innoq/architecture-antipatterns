@@ -1,4 +1,5 @@
-# Generic Product model for 12 insurance products
+# Generic Product model for 12 insurance products ✅
+*Autor: Felix*
 
 ## Description
 When developing a replacement for an old insurance system based on COBOL and hirarchic databases, a decision was made to use a generic product modeling system.

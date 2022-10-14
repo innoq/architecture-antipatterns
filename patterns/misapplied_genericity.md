@@ -1,4 +1,4 @@
-# Misapplied Genericity
+# Misapplied Genericity ✅
 *Author(s): Sven*
 
 ## Short Summary

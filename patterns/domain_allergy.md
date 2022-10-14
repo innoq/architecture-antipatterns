@@ -1,4 +1,4 @@
-# Domain Allergy 
+# Domain Allergy 🚧
 *Author(s): Stefan*
 
 ## Short Summary
@@ -16,6 +16,8 @@ The architect will fail to communicate well with business stakeholders because t
 ## What are some examples?
 - Two huge domain classes represent all legal forms for companies, unions and foundations
 - Rating application based on generic thing machine
+
+🚧 missing examples in case studies 🚧
 
 ## Why does this happen?
 Architects very often share a passion for working on interesting, challenging problems. They want to work with something that hasn’t been used a thousand times already, want to build something that is truly innovative, and explore new and exciting options to solve problems. Sometimes projects don’t offer many challenges from a domain or business perspective, though – at least not from the point of view of a technical architect. Because they perceive the business domain as boring, some architects end up treating it as somewhat of an annoying nuisance. 

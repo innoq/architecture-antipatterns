@@ -1,4 +1,4 @@
-# Using a BPMN engine for the store checkout process
+# Using a BPMN engine for the store checkout process ✅
 *Author: Tobias*
 
 ## Description

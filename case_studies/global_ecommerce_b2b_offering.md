@@ -1,4 +1,4 @@
-# Global eCommerce B2B offering
+# Global eCommerce B2B offering ✅
 *Author: Stefan*
  
 ### Description

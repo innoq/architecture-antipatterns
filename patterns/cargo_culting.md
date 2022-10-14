@@ -1,4 +1,4 @@
-# Cargo-Culting
+# Cargo-Culting ✅
 *Author(s): Tobias, Felix*
 
 ## Short Summary

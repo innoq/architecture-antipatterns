@@ -1,5 +1,5 @@
-# Two huge domain classes represent all legal forms for companies, unions and foundations
-Author: Sven
+# Two huge domain classes represent all legal forms for companies, unions and foundations ✅
+*Author: Sven*
 
 ## Name of the example: 
 Flattening the Hierarchy

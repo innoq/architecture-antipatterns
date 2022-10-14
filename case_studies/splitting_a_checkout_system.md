@@ -1,4 +1,4 @@
-# Splitting a checkout system into too many services
+# Splitting a checkout system into too many services ✅
 *Author: Tobias*
 
 ## What was the good idea?
@@ -22,4 +22,4 @@ The second problem was the dependency between the services, because any change i
 
 ## Which patterns were encountered?
 - [Over-Engineering](../patterns/over_engineering.md)
-- Layerism
+- [Layerism](../patterns/layerism.md)

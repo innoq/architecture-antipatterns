@@ -1,4 +1,5 @@
-# Emotional Attachment
+# Emotional Attachment 🚧
+
 ## Description
 Very often, people involved in software development have certain preferences for frameworks, programming languages, or architectural approaches to which they cling, regardless of whether these preferences solve the current problem. Likewise, people may become emotionally attached to a solution because they have struggled with other approaches in the past and do not want to repeat that experience. Or the other way around people may become emotionally attached to a solution because the team came up with a good solution and want to stick to it. The crucial aspect here is the emotional part, which leads to sticking to certain solutions. 
 
@@ -10,6 +11,8 @@ It should be mentioned that an emotional bond can also have positive sides. For 
 - Sticking to a poorly functioning platform / decision
 - Developers seeing the system as their "baby"
 - Legacy systems based on outdated technologies
+
+🚧 missing examples in case studies 🚧
 
 ## Why does this happen?
 - Fear of losing face when changing an architectural approach or technology
