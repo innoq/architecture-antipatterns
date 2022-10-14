@@ -1,4 +1,4 @@
-# App Development with a cross platform framework
+# App Development with a cross platform framework ✅
 
 ## Description
 When developing an App for an insurance company, the decision was made to build the app with a cross platform JavaScript framework.
