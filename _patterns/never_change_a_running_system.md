@@ -1,14 +1,13 @@
 ---
 title: Never change a running system
-authors: ???
+authors: Andreas
 done: false
 excerpt_separator: <!--more-->
 layout: pattern
 ---
-Probably everybody working in IT has heard this sentence. This can be an anti-pattern when there is the "system" and nobody wants to touch it in fear of breaking something.<!--more-->
+"Never change a running system" - probably everybody working in IT has heard this sentence. This can be an anti-pattern when there is the "system" and nobody wants to touch it in fear of breaking something.<!--more-->
 
-## Description
-The system is either very critical or complex so that this fear of breaking it when changing it comes to exist. Often people are discouraged from even trying to change the system, which leads to monopoly of heads or even no-one being able to change the system anymore. Also, often people start working around the system and wrapping additional layers around it to add functionality or even fix bugs. This then leads to an even more fragile and complex system.
+The system is either very critical or complex so that this fear of breaking it when changing it comes to exist. Often people are discouraged from even trying to change the system, which leads to monopoly of heads or even no one beeing able to change the system anymore. Also often people start working around the system and wrapping additional layers around it to add functionality or even fix bugs. This then leads to an even more fragile and complex system.
 
 Nobody wants to work on such a system, it will be hard to find developers and hard to motivate them. So the problem will increase even further.
 When software is no longer maintained and updated regularly, libraries and frameworks will soon be outdated, and they will no longer play nicely with the surrounding systems. Other system elements will start to build anticorruption layers around it.
@@ -22,7 +21,6 @@ Often this results in reimplementing/reverse engineering the system. This comes 
 * Old system that does not get updated and has a lot of legacy libraries full of potential security risks.
 
 🚧 missing examples in case studies 🚧
-
 
 
 ## Why does this happen?
@@ -45,7 +43,7 @@ Often this results in reimplementing/reverse engineering the system. This comes 
 Often the preferred way will be a re-implementation of the system. But this is not the ideal solution due to the immense costs and risks.
 There might be reasons for such a drastic step, for example if the environment is outdated like COBOL code on a host environment, but most of the time it is better to keep the system alive and kicking.
 The better way is simply to name but hard to do. Start reducing the technical debt. For that the following steps are normally useful:
-Implement tests or complete tests. Start with the most important ones. This gives back more confidence in the overall system. The test can even be used to prove uncertainties about implemented features and side effects. Sometimes test are no longer functioning – revisit them and update.
+* Implement tests or complete tests. Start with the most important ones. This gives back more confidence in the overall system. The test can even be used to prove uncertainties about implemented features and side effects. Sometimes test are no longer functioning – revisit them and update.
 * Close gaps in the documentation. Even document what you don’t know (yet).
 * Update libraries, find dead outdated code – remove it.
 * Refactor the code, etc.
