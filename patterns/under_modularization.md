@@ -36,7 +36,7 @@ Software projects are divided into too few modules at run time (e.g. containers)
 
 ## Related Patterns
 - [Big Ball of Mud]
-- Over-Modularization
-- Never change a running system
+- [Over-Modularization](over_modularization.md)
+- [Never change a running system](never_change_a_running_system.md)
 
 [Big Ball of Mud]: http://laputan.org/mud/

@@ -11,7 +11,8 @@
 * What happened, was there a turning or tipping point?
 * How was the situation resolved
 
-## Structure for patteName of the pattern
+## Structure for patterns
+* Name of the pattern
 * Description: What is it, and what are the bad consequences?
 * What are some examples?
 * Why does this happen?
@@ -19,9 +20,7 @@
 * What are suggestions to get out of the situation if we ended up in it?
 
 ## run locally
-```
+```shell
 $ bundle install
-```
-```
 $ bundle exec jekyll serve
 ```
