@@ -1,0 +1,49 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  border-bottom: 3px solid var(brand-purple2);
+  border-collapse: collapse;
+  font-size: var(--font-size-xs);
+  text-align: left;
+}
+
+caption {
+  margin-top: var(--figcaption-spacing);
+  caption-side: bottom;
+  font-size: var(--font-size-sm);
+}
+
+thead {
+  background-color: var(--brand-blue1);
+  color: var(--brand-white);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+tfoot {
+  background-color: var(--brand-blue1);
+  color: var(--brand-white);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+.table tbody tr {
+  border-bottom: 1px solid var(--brand-black);
+}
+
+.table tbody tr:nth-child(2n + 1) {
+  background-color: var(--brand-grey1);
+}
+
+th {
+  padding: var(--spacer-xs) var(--spacer-xs);
+  text-align: left;
+}
+
+td {
+  padding: var(--spacer-xs);
+  font-size: var(--font-size-xs);
+  vertical-align: top;
+}
+
+/* To Do: border bottom an allen außer am letzten */

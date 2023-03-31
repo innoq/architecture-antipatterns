@@ -1,0 +1,9 @@
+pre {
+  display: block;
+  padding: var(--spacer-xs);
+  margin: 0;
+  background-color: var(--brand-grey1);
+  font-size: var(--font-size-sm);
+  overflow-x: auto;
+  tab-size: 4;
+}

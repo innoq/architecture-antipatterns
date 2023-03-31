@@ -1,0 +1,33 @@
+.button {
+  position: relative;
+  display: inline-block;
+  padding: var(--spacer-xs) var(--spacer-sm);
+  border: 0;
+  margin: 0;
+  background: none;
+  background-color: var(--brand-purple2);
+  color: var(--brand-white);
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--paragraph-line-height);
+  text-decoration: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: var(--brand-white);
+  color: var(--brand-purple2);
+  outline-color: var(--brand-purple2);
+  outline-style: solid;
+  transition: 0.5s ease-in-out;
+}
+
+.button:focus {
+  background-color: var(--brand-white);
+  color: var(--brand-purple2);
+  outline-color: var(--brand-purple2);
+  outline-style: solid;
+  transition: 0.5 ease-in-out;
+}

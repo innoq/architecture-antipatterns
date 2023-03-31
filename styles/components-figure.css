@@ -1,0 +1,14 @@
+figure {
+  margin: 0;
+}
+
+figure img,
+figure video {
+  width: 100%;
+}
+
+figcaption {
+  margin-top: var(--figcaption-spacing);
+  font-size: var(--font-size-sm);
+  text-align: center;
+}

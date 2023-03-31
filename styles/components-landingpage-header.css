@@ -1,0 +1,89 @@
+.landingpage-header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--brand-black);
+}
+
+.landingpage-header__wrapper {
+  display: grid;
+  max-width: var(--content-width-lg);
+  align-items: center;
+  padding: var(--spacer-lg) var(--spacer-md) var(--spacer-lg) var(--spacer-md);
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+.landingpage-header__logo {
+  width: var(--spacer-xxl);
+  height: auto;
+}
+
+.landingpage-header__title {
+  color: var(--brand-white);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--heading-line-height);
+  text-align: center;
+}
+
+.landingpage-header__subtitle {
+  max-width: 20rem;
+  margin-top: var(--spacer-base);
+  color: var(--brand-white);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--paragraph-line-height);
+  text-align: center;
+}
+
+.landingpage-header__keyvisual {
+  width: var(--spacer-xxl);
+  height: auto;
+  margin-top: var(--spacer-lg);
+  rotate: 90deg;
+  transform: scaleY(-1);
+}
+
+@media screen and (min-width: 52rem) {
+  .landingpage-header__wrapper {
+    align-items: start;
+    padding-bottom: var(--spacer-lg);
+    grid-column-gap: var(--spacer-lg);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: start;
+  }
+
+  .landingpage-header__logo {
+    width: var(--spacer-xxxl);
+    height: auto;
+    grid-column: 1;
+  }
+
+  .landingpage-header__title {
+    font-size: var(--font-size-3xl);
+    grid-column: 1;
+    text-align: left;
+  }
+
+  .landingpage-header__subtitle {
+    max-width: 20rem;
+    margin-top: var(--spacer-xl);
+    font-size: var(--font-size-base);
+    grid-column: 1;
+    text-align: left;
+  }
+
+  .landingpage-header__keyvisual {
+    width: 20rem;
+    height: auto;
+    align-self: center;
+    margin-top: 0;
+    grid-column: 2;
+    grid-row: 1 / 4;
+    justify-self: end;
+    rotate: 180deg;
+    transform: scale(-1);
+  }
+}
