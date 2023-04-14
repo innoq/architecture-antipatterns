@@ -1,5 +1,5 @@
 ---
-name: Cargo-Culting
+title: Cargo-Culting
 authors: Tobias, Felix
 done: true
 excerpt_separator: <!--more-->
@@ -19,7 +19,7 @@ The first phase "Shu" can be translated as "follow", which means that the learni
 The last phase "Ri" roughly translates to "leave", where the learning person finds its completely own way to solve problems because it has understood the implications and boundaries of the learned behavior. As long as the phases "Ha" and "Ri" are part of adopting new processes, technologies or methodologies, the phase "Shu" most likely won't lead to the negative implications of cargo culting. Unfortunately, oftentimes exactly these two phases are ignored and the result is the kind of cargo culting we would describe as an anti-pattern.
 
 ## What are some examples?
-- [BPMN engine for everything](../case_studies/using_a_bpmn_engine_for_everything.md)
+- [BPMN engine for everything](../case_studies/using_a_bpmn_engine_for_everything.html)
 - Using architecture approaches not fitting your company, like using microservices because some role model, e.g. Netflix, is using them
 - Implementing unsuitable processes for your company culture, like the Spotify model, just because it is the current agile 'trend'
 

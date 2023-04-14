@@ -1,5 +1,5 @@
 ---
-name: Over-Engineering
+title: Over-Engineering
 authors: ???
 done: false
 excerpt_separator: <!--more-->
@@ -16,7 +16,7 @@ Durch den Fokus auf die Komplexität werden die eigentlich wichtigen Businessfun
 
 ## What are some examples?
 Aufteilung eines Kassensystems in zu viele Services
-- [Generic Product model for 12 insurance products](../case_studies/generic_product_model_for_12_insurance_products.md)
+- [Generic Product model for 12 insurance products](../case_studies/generic_product_model_for_12_insurance_products.html)
 
 
 ## Why does this happen?

@@ -1,5 +1,5 @@
 ---
-name: Life Insurance System with Ingenious Legacy Tech Stack
+title: Life Insurance System with Ingenious Legacy Tech Stack
 authors: Stefan
 done: true
 excerpt_separator: <!--more-->
@@ -46,7 +46,6 @@ The SmallTalk team knew object oriented (OO) programing and pushed the use of OO
 * Release often. Use a Continuous Integration and Deployment. (CI/CD pipeline)
 
 ## Which patterns were encountered?
-
-* [Knowledge Tunnelling](../patterns/knowledge_tunneling.md)
-* [Failing Rigidity](../patterns/failing_rigidity.md)
-* [Data Model Bypass](../patterns/data_model_bypass.md)
+* Knowledge Tunnelling
+* Failing Rigidity
+* Data Model Bypass

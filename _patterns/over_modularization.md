@@ -1,5 +1,5 @@
 ---
-name: Over-Modularization
+title: Over-Modularization
 authors: Andreas, Theo, Christian, Felix
 done: true
 excerpt_separator: <!--more-->
@@ -19,7 +19,7 @@ Software projects are divided into several modules at run time (e.g. services, l
     - The modules are supposed to provide a better build-performance/maintainability/testability in the future.
     - The modules could be reused in the future.
     - Developers are afraid that a further modularization at a later time will be difficult.
-- [Cargo-Culting](cargo_culting.md): Developers modularize software because others do without understanding why.
+- [Cargo-Culting](../patterns/cargo_culting.html): Developers modularize software because others do without understanding why.
 - Developers made bad experiences with Under-Modularization.
 - Developers lack domain knowledge.
 
@@ -36,7 +36,7 @@ Software projects are divided into several modules at run time (e.g. services, l
 - Merge modules which are usually deployed/modified together.
 
 ## Related Patterns
-- [Cargo-Culting](cargo_culting.md)
-- [Under-Modularization](under_modularization.md)
+- [Cargo-Culting](../patterns/cargo_culting.html)
+- [Under-Modularization](../patterns/under_modularization.html)
 
 [Yagni]: https://www.martinfowler.com/bliki/Yagni.html

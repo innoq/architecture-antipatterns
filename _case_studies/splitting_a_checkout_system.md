@@ -1,5 +1,5 @@
 ---
-name: Splitting a checkout system into too many services
+title: Splitting a checkout system into too many services
 authors: Tobias
 done: false
 excerpt_separator: <!--more-->
@@ -24,5 +24,5 @@ Also any communication to this service got ever more error prone because of inco
 The second problem was the dependency between the services, because any change in some "basic" service or adapter to the legacy system led a number of changes in all other services which were built upon this service. So for one little feature, the whole system hat to be adapted, all changed services had to be deployed simultaneously in the correct order and one developer had to work on different repositories.
 
 ## Which patterns were encountered?
-- [Over-Engineering](../patterns/over_engineering.md)
-- [Layerism](../patterns/layerism.md)
+* [Over-Engineering](../patterns/over_engineering.html)
+* Layerism

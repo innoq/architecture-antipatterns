@@ -1,5 +1,5 @@
 ---
-name: Emotional Attachment to a DIY Middleware
+title: Emotional Attachment to a DIY Middleware
 authors: Andreas
 done: true
 excerpt_separator: <!--more-->
@@ -24,12 +24,11 @@ It was very complicated to set up a software due sparse documentation.
 Each time a problem arouse one of the middleware team was involved. When a new piece of software was running on a developer machine it was an enormous effort to get it running in production environment.
 
 ## Which patterns were encountered?
-[Emotional Attachment](../patterns/emotional_misattachment.md)
+[Emotional Misattachment](../patterns/emotional_misattachment.html)
 
-## How was the situation resolved
+## How was the situation resolved?
 In this case it would have been easy to use a standard industrial solution. 
 
 Sometimes it is easy to get into such a situation even with the best intentions, but is always important to reflect from time to time if the special way you took is really still worth it. 
 
 But reality stroke faster in this case than any possible solution, when the dot com bubble burst the company got into enormous economical problems that ended these technical endeavors. 
-

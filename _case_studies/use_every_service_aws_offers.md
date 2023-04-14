@@ -1,5 +1,5 @@
 ---
-name: Use every service AWS offers
+title: Use every service AWS offers
 authors: Sven
 done: false
 excerpt_separator: <!--more-->

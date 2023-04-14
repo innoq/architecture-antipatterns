@@ -1,5 +1,5 @@
 ---
-name: Use CQRS for almost every problem
+title: Use CQRS for almost every problem
 authors: Sven
 done: false
 excerpt_separator: <!--more-->

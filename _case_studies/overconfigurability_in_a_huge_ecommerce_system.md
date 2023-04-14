@@ -1,5 +1,5 @@
 ---
-name: Over-Configurability in a (huuuuge) eCommerce System
+title: Over-Configurability in a (huuuuge) eCommerce System
 authors: Gernot, Christine
 done: false
 excerpt_separator: <!--more-->
@@ -8,14 +8,12 @@ layout: study
 A huge organization developed and operated a system for selling special kinds of goods to their customers.<!--more-->
 
 ## What is the system’s background
-
 * Cobol, Mainframe
 * Huge (government-oriented) organization
 * Mass-Market
 * Formal requirements (availability, guaranteed fair pricing…)
 * Complex pricing scheme
 * Several (heavily disagreeing) business-units, which struggle about business-priorities and about (shared and centralized) development capacity.
-
 
 To understand the system and its properties, one needs to know a bit about the goods the systems deals with: They
 
@@ -35,8 +33,6 @@ In production environments, all these configurations culminate in a “data driv
 
 To make flexibility even more intense, the developers included more than 300 (!) “feature toggles” in their code, but only about half of those were documented :-(
 
-
-
 ## What was the good idea?
 (optional: What happened, was there a turning or tipping point?)
 
@@ -46,8 +42,6 @@ To make flexibility even more intense, the developers included more than 300 (!)
 
 
 ## What were the bad consequences, why was everything bad?
-
-
 Overly large and heterogeneous development team (>150 persons from different companies), making development very expensive (and slow, see below)
 Time-to-market became slower and slower, due to 
 overwhelming complexity of the overall system

@@ -1,5 +1,5 @@
 ---
-name: Under-Modularization
+title: Under-Modularization
 authors: Andreas, Theo, Christian, Felix
 done: false
 excerpt_separator: <!--more-->
@@ -40,7 +40,7 @@ Software systems are divided into too few modules at run time (e.g. containers) 
 
 ## Related Patterns
 - [Big Ball of Mud]
-- [Over-Modularization](over_modularization.md)
-- [Never change a running system](never_change_a_running_system.md)
+- [Over-Modularization](../patterns/over_modularization.html)
+- [Never change a running system](../patterns/never_change_a_running_system.html)
 
 [Big Ball of Mud]: http://laputan.org/mud/

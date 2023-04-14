@@ -1,5 +1,5 @@
 ---
-name: The one order engine which solves it all
+title: Super-generic framework in logistics
 authors: Sven
 done: true
 excerpt_separator: <!--more-->
@@ -13,22 +13,22 @@ A very large logistics company hired a consultancy which to implement a web shop
 It took almost two weeks to set up the developer workstation for developers not using Linux. Linux users could luckily make it in a few days. There were so many scripts to run to get Weblogic up and running with specific “framework plugins” and no one seemed to get it right. There was no documentation, everything was trial and error.
 
 ## What is the system’s background?
-It looked like Enterprise Java, but with a lot of specific custom implementations
-Oracle database, Weblogic application server
-Huge organization
-First steps of the organisation to sell digital products
-A sister company offered a similar service, but with way lower development costs. That triggered the review.
+* It looked like Enterprise Java, but with a lot of specific custom implementations
+* Oracle database, Weblogic application server
+* Huge organization
+* First steps of the organization to sell digital products
+* A sister company offered a similar service, but with way lower development costs. That triggered the review.
 
 ## What was the good idea?
-There was the belief to build a generic order engine which could be reused acrossed many projects of the client and projects with other clients.
+There was the belief to build a generic order engine which could be reused across many projects of the client and projects with other clients.
 
 ## What were the bad consequences, why was everything bad?
-Implementing new features took forever. It was hard to understand the code base, but it was even harder to test it. Unit tests were not possible, integration tests were possible, but the feedback cycle was very long. The application domain itself was simple, but still we had enormous problems where you wouldn’t thought you will have them. The idea to have two generic database table turned out to be a big performance bottleneck which required very specific Oracle knowledge to solve. 
+Implementing new features took forever. It was hard to understand the code base, but it was even harder to test it. Unit tests were not possible, integration tests were possible, but the feedback cycle was very long. The application domain itself was simple, but still we had enormous problems where you wouldn’t think you will have them. The idea to have two generic database table turned out to be a big performance bottleneck which required very specific Oracle knowledge to solve.
 
 ## Which patterns were encountered?
-[Over-Engineering](../patterns/over_engineering.md) - the customer wanted a simple web shop for one simple product. The consultancy delivered a highly complex system which could theoretically deal with a magnitude of products. Furthermore the system didn’t use existing technologies, they reinvented the wheel. Because unit tests where not possible, they came up with their own integration testing framework and many other “not invented here” syndrome solutions.
-[Misapplied genericity](../patterns/misapplied_genericity.md) - the customer wanted a solution for a specific problem: a web shop for one product. The solution was a system which solves all web shop problems in the world. However, the solution didn’t work properly, was too expensive and too slow. 
-Abstraction bias - everything is an order. An order of a product is an order. But also changing address data or the password is an order. Everything is an order, where a simple CRUP application could have done it
+* [Over-Engineering](../patterns/over_engineering.html) - the customer wanted a simple web shop for one simple product. The consultancy delivered a highly complex system which could theoretically deal with a magnitude of products. Furthermore, the system didn’t use existing technologies, they reinvented the wheel. Because unit tests where not possible, they came up with their own integration testing framework and many other “not invented here” syndrome solutions.
+* [Misapplied genericity](../patterns/misapplied_genericity.html) - the customer wanted a solution for a specific problem: a web shop for one product. The solution was a system which solves all web shop problems in the world. However, the solution didn’t work properly, was too expensive and too slow.
+* Abstraction bias - everything is an order. An order of a product is an order. But also changing address data or the password is an order. Everything is an order, where a simple CRUD application could have done it
 
 ## How was the situation resolved?
 The original consultancy got fired and a new one got hired to develop the system from scratch.

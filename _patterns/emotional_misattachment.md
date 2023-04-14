@@ -1,5 +1,5 @@
 ---
-name: Emotional Attachment
+title: Emotional Attachment
 authors: ???
 done: false
 excerpt_separator: <!--more-->

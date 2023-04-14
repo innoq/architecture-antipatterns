@@ -1,5 +1,5 @@
 ---
-name: Infrastructure Ignorance
+title: Infrastructure Ignorance
 authors: Andreas, Theo, Christian
 done: false
 excerpt_separator: <!--more-->

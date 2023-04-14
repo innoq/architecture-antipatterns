@@ -1,5 +1,5 @@
 ---
-name: App Development with a cross platform framework
+title: App Development with a cross platform framework
 authors: Felix
 done: true
 excerpt_separator: <!--more-->
@@ -17,14 +17,11 @@ The good idea was that the employees of the company would only have to learn how
 When the app was planned, the goal was to recreate the functions that the company website provided to the customer, just as an app in the app stores. When development started it became clear very fast, that what was actually wanted was an app with many "native" features. The first thing that came up was the login for example. When on the website the user had to log in via username and password, in the app the user should be able to save the credentials and use fingerprint or face recognition for the login. When development continued, more and more features a user would expect from an app were wanted, features the website never had. Many of those features were using "native" functions of the underlying operating system on the mobile platform. These functions had wrappers in JavaScript in the cross platform framework. The problem was that the operating system api changed regularly and the open source cross platform framework would not be as fast in changing the wrapping code resulting in breaking functions in the app. 
 
 ## What happened, was there a turning or tipping point?
-
 In the end employees from the company had to contribute to the open source cross platform framework to fix the needed functions. This resulted in them not only having to learn JavaScript but also parts of Swift / Objective C and in parts also Ruby wich was used by the cross platform framework for code generation.
 
 ## How was the situation resolved?
-
 The situation was not resolved, the problem continued. The situation improved however due to the developers getting more and more firm with all the technologies. However the good idea never came to a conclusion.
 
 ## Which patterns were encountered?
-
-* [Misapplied Genericity](../patterns/misapplied_genericity.md)
+* [Misapplied Genericity](../patterns/misapplied_genericity.html)
 

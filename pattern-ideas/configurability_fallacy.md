@@ -5,7 +5,7 @@ Assuming making everything configurable is easier than hard-coding things, missi
 ## Description: What is it, and what are the bad consequences?
 
 ## What are some examples?
-- [Global eCommerce B2B offering](../case_studies/global_ecommerce_b2b_offering.md)
+- [Global eCommerce B2B offering](../case_studies/global_ecommerce_b2b_offering.html)
 
 ## Why does this happen?
 
