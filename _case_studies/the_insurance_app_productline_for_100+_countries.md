@@ -1,11 +1,11 @@
-# The Insurance App Productline for 100+ countries ✅
-Author: Sven
-
-# Name of the example:
-World-wide insurance App productline
-
-# Description: 
-One of the largest insurances in the world developed one mobile app product line for all their country entities around the world to provide self-service functionality for viewing and changing policy data.
+---
+name: World-wide insurance App productline
+authors: Sven
+done: true
+excerpt_separator: <!--more-->
+layout: study
+---
+One of the largest insurances in the world developed one mobile app product line for all their country entities around the world to provide self-service functionality for viewing and changing policy data.<!--more-->
 
 # What is the system’s background?
 * Mobile App, iOS and Android

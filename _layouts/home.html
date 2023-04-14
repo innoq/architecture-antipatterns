@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {%- include headofpage.html -%}
+{%- include head.html -%}
 
-  <body>
-    {% for post in site.html_pages %}
-    aaaaa
-      <h2>{{ post.title }}</h2>
-      {% include teaser-antipatterns.html %}
-
-    {% endfor %}
-
-
-    {%- include footer.html -%}
-
-  </body>
+<body>
+  {%- include nav.html -%}
+  {%- include header.html -%}
+  {%- include section_teasers_patterns.html -%}
+  {%- include section_teasers_studies.html -%}
+  {%- include section_maintainers.html -%}
+  {%- include footer.html -%}
+</body>
 
 </html>

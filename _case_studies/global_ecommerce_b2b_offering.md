@@ -1,9 +1,11 @@
-# Global eCommerce B2B offering ✅
-*Author: Stefan*
- 
-### Description
-
-An e-commerce service provider offered online stores to its clients. You could say the business it was in was literally providing e-commerce services: The provider offered its clients an easy way to set up a online store where *their* clients – the provider’s clients’ clients, sorry, but sometimes life is complicated – could order digital goods. The provider handled a lot of the hassle associated with that, such as taking care of payment with multiple different payment methods, in different currencies, handling country-specific tax aspects, export restrictions, etc. In essence, it operated a giant multi-tenant platform at a time when many of their clients barely knew how e-commerce worked.
+---
+name: Global eCommerce B2B offering
+authors: Stefan
+done: true
+excerpt_separator: <!--more-->
+layout: study
+---
+An e-commerce service provider offered online stores to its clients. You could say the business it was in was literally providing e-commerce services<!--more-->: The provider offered its clients an easy way to set up a online store where *their* clients – the provider’s clients’ clients, sorry, but sometimes life is complicated – could order digital goods. The provider handled a lot of the hassle associated with that, such as taking care of payment with multiple different payment methods, in different currencies, handling country-specific tax aspects, export restrictions, etc. In essence, it operated a giant multi-tenant platform at a time when many of their clients barely knew how e-commerce worked.
 
 ### What was the good idea?
 

@@ -1,8 +1,11 @@
-# Over-Engineering 🚧
-
-
-## Short summary
-Ein Problem wird mit einer zu komplexen technischen Lösung angegangen, anstatt eine einfachere, dem Ziel dienlichere Alternative zu wählen.
+---
+name: Over-Engineering
+authors: ???
+done: false
+excerpt_separator: <!--more-->
+layout: pattern
+---
+Ein Problem wird mit einer zu komplexen technischen Lösung angegangen, anstatt eine einfachere, dem Ziel dienlichere Alternative zu wählen.<!--more-->
 
 ## Description: What is it, and what are the bad consequences?
 Oft kommt es vor, dass Architekt*innen eine für das Problem zu komplexe Lösungsstrategie wählen, anstatt sich auf eine einfachere, möglicherweise aber nicht so „trendige“ Vorgehensweise festzulegen. Dieses Vorgehen führt häufig zu folgenden Problemen:

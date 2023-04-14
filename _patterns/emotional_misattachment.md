@@ -1,7 +1,11 @@
-# Emotional Attachment 🚧
-
-## Description
-Very often, people involved in software development have certain preferences for frameworks, programming languages, or architectural approaches to which they cling, regardless of whether these preferences solve the current problem. Likewise, people may become emotionally attached to a solution because they have struggled with other approaches in the past and do not want to repeat that experience. Or the other way around, people may become emotionally attached to a solution because the team came up with a good solution and want to stick to it. The crucial aspect here is the emotional part, which leads to sticking to certain solutions. 
+---
+name: Emotional Attachment
+authors: ???
+done: false
+excerpt_separator: <!--more-->
+layout: pattern
+---
+Very often, people involved in software development have certain preferences for frameworks, programming languages, or architectural approaches to which they cling, regardless of whether these preferences solve the current problem.<!--more--> Likewise, people may become emotionally attached to a solution because they have struggled with other approaches in the past and do not want to repeat that experience. Or the other way around, people may become emotionally attached to a solution because the team came up with a good solution and want to stick to it. The crucial aspect here is the emotional part, which leads to sticking to certain solutions.
 
 It should be mentioned that an emotional bond can also have positive sides. For example often a positive emotional attachment to a product in which someone is involved has a positive effect on the product itself. It becomes problematic when decisions are made for emotional reasons and objective facts are ignored. 
 

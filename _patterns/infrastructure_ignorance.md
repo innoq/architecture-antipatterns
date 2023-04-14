@@ -1,7 +1,11 @@
-# Infrastructure Ignorance 🚧
-*Author: Andreas, Theo, Christian*
-
-Ignoring the target environment, e.g. hardware performance, network topology and quality, power limitations during (initial) design or/and development. This lead to systems which do not meet the requirements and that will be hard or even impossible to fix later.
+---
+name: Infrastructure Ignorance
+authors: Andreas, Theo, Christian
+done: false
+excerpt_separator: <!--more-->
+layout: pattern
+---
+Ignoring the target environment, e.g. hardware performance, network topology and quality, power limitations during (initial) design or/and development.<!--more--> This lead to systems which do not meet the requirements and that will be hard or even impossible to fix later.
 
 ## Description
 

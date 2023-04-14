@@ -1,8 +1,11 @@
-# Two huge domain classes represent all legal forms for companies, unions and foundations ✅
-*Author: Sven*
-
-## Name of the example: 
-Flattening the Hierarchy
+---
+name: Flattening the Hierarchy
+authors: Sven
+done: true
+excerpt_separator: <!--more-->
+layout: study
+---
+Two huge domain classes represent all legal forms for companies, unions and foundations.<!--more-->
 
 ## Description: 
 A SaaS provider offered insurances, law firms and banks information about all kinds of legal forms and their current and previous owners. The domain is quite complex, e.g. you have all sorts of public and private companies, unions, associations, shipping lines and foundations. The documentation of the chamber of commerce of the (small) country the SaaS provider operated, listed in 2015 overall 46 types of legal forms. Each legal form has its own properties, but there’s of course also a quite complex inheritance hierarchy, they all have a starting date and founders, but only some have the properties of companies, public or private, and so on. Depending on the legal form, the SaaS offered certain views and actions on those data, e.g. a detailed page on a public company shows a lot of data, because those types of companies are forced in a very structured way to report on their financial year. A details page of a one business does not show those data, because the data set it needs to provide is not as rich as with a public company.

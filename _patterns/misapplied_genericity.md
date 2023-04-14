@@ -1,8 +1,11 @@
-# Misapplied Genericity ✅
-*Author(s): Sven*
-
-## Short Summary
-Building a solution that is so generic that it ends up satisfying no one.
+---
+name: Misapplied Genericity
+authors: Sven
+done: true
+excerpt_separator: <!--more-->
+layout: pattern
+---
+Building a solution that is so generic that it ends up satisfying no one.<!--more-->
 
 ## Description
 We have a very specific problem to solve, and we don’t only want to solve this very specific problem. That would be too easy. We want to solve the whole problem class our problem belongs to. Then our life will be easier in the future. All future problems of that problem class are solved by our generic solution to the first problem. We only need to write a little extension point here or add some configuration there and voilà, our future problem will be solved. 

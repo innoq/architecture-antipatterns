@@ -1,8 +1,11 @@
-# Never change a running system 🚧
-*Author(s): 
-
-## Short summary
-"Never change a running system" - probably everybody working in IT has heard this sentence. This can be an anti-pattern when there is the "system" and nobody wants to touch it in fear of breaking something.
+---
+name: Never change a running system
+authors: ???
+done: false
+excerpt_separator: <!--more-->
+layout: pattern
+---
+Probably everybody working in IT has heard this sentence. This can be an anti-pattern when there is the "system" and nobody wants to touch it in fear of breaking something.<!--more-->
 
 ## Description
 The system is either very critical or complex so that this fear of breaking it when changing it comes to exist. Often people are discouraged from even trying to change the system, which leads to monopoly of heads or even no-one being able to change the system anymore. Also, often people start working around the system and wrapping additional layers around it to add functionality or even fix bugs. This then leads to an even more fragile and complex system.

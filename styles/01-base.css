@@ -2,7 +2,7 @@
   font-family: 'Roboto Flex';
   font-stretch: 25% 151%;
   font-weight: 100 1000;
-  src: url('../lib/fonts/RobotoFlex.woff2') format('woff2-variations');
+  src: url('/lib/fonts/RobotoFlex.woff2') format('woff2-variations');
 }
 
 * {

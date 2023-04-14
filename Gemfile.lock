@@ -262,7 +262,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
-  minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
   webrick

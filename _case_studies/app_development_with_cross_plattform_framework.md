@@ -1,8 +1,11 @@
-# App Development with a cross platform framework ✅
-*Author: Felix*
-
-## Description
-When developing an App for an insurance company, the decision was made to build the app with a cross platform JavaScript framework.
+---
+name: App Development with a cross platform framework
+authors: Felix
+done: true
+excerpt_separator: <!--more-->
+layout: study
+---
+When developing an App for an insurance company, the decision was made to build the app with a cross platform JavaScript framework.<!--more-->
 
 ## What is the system’s background?
 The plan of the system was to build an app for Android and iOS. The app should be a representation of the companies website in the app stores. The plan was to use a JavaScript framework for cross platform development based on Cordova.

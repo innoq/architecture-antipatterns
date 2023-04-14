@@ -1,7 +1,11 @@
-# Emotional Attachment to a DIY Middleware ✅
-*Author: Andreas*
-
-A software development company for insurance software developed its own CORBA like middleware that integrated an ORB, DCOM services and a lot more nifty features. 
+---
+name: Emotional Attachment to a DIY Middleware
+authors: Andreas
+done: true
+excerpt_separator: <!--more-->
+layout: study
+---
+A software development company for insurance software developed its own CORBA like middleware that integrated an ORB, DCOM services and a lot more nifty features. <!--more-->
 
 It was the time of the dot-com bubble and the company was growing very fast due to a lot of money they got by going on the stock markets.
 

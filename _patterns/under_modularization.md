@@ -1,7 +1,11 @@
-# Under-Modularization 🚧
-
-## Description
-Software projects are divided into too few modules at run time (e.g. containers) or build time (e.g. Maven modules, packages). This modularization has disadvantages compared to a modularization into more modules. The modules are too big and therefore harder to understand, maintain, secure, deploy and scale horizontally. Due to missing boundaries in the code the risk of dependencies and data sharing across different functions increases. 
+---
+name: Under-Modularization
+authors: Andreas, Theo, Christian, Felix
+done: false
+excerpt_separator: <!--more-->
+layout: pattern
+---
+Software systems are divided into too few modules at run time (e.g. containers) or build time (e.g. Maven modules, packages). This modularization has disadvantages compared to a modularization into more modules. <!--more-->The modules are too big and therefore harder to understand, maintain, secure, deploy and scale horizontally. Due to missing boundaries in the code the risk of dependencies and data sharing across different functions increases. 
 
 
 ## What are some examples?

@@ -1,8 +1,11 @@
-# Splitting a checkout system into too many services ✅
-*Author: Tobias*
-
-## What was the good idea?
-The project should replace the existing, monolithic and hard to scale checkout system with a modern, scalable and loosely coupled implementation. 
+---
+name: Splitting a checkout system into too many services
+authors: Tobias
+done: false
+excerpt_separator: <!--more-->
+layout: study
+---
+The project should replace the existing, monolithic and hard to scale checkout system with a modern, scalable and loosely coupled implementation.<!--more--> 
 To achieve this, a microservice architecture was chosen as the target architecture for the software system. The microservices should be orchestrated by some core service. In addition there was a Javascript desktop application with an associated backend for frontend (that used the core service as a main data provider). Communication between the services was either synchronous via HTTP or, in some cases, asynchronous via MQTP. 
 
 ## What happened, was there a turning or tipping point?

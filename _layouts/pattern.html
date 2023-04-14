@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<main class="detail-page">
+    <h1>Antipattern: {{ page.name }}{%- if page.done != true -%}&nbsp;🚧{%- endif -%}</h3></h1>
+    <p>Author(s): {{ page.authors }}</p>
+    {{ content }}
+</main>

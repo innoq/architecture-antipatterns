@@ -1,8 +1,11 @@
-# Life Insurance System with Ingenious Legacy Tech Stack ✅
-*Author Stefan*
-
-## Description
-An insurance company developed a large and complex system to handle its life insurance policies. Due to the mixture of different technologies and paradigms, the system got very hard to maintain. The deployment cyle of 6 month was much too long for business requirements.
+---
+name: Life Insurance System with Ingenious Legacy Tech Stack
+authors: Stefan
+done: true
+excerpt_separator: <!--more-->
+layout: study
+---
+An insurance company developed a large and complex system to handle its life insurance policies.<!--more--> Due to the mixture of different technologies and paradigms, the system got very hard to maintain. The deployment cyle of 6 month was much too long for business requirements.
 
 ## What is the system’s background?
 The system had already been in production for about a decade and the current size of the maintenance team was about 100 people working full-time.

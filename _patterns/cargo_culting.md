@@ -1,8 +1,12 @@
-# Cargo-Culting ✅
-*Author(s): Tobias, Felix*
-
-## Short Summary
-Cargo-Culting describes the behavior of adopting processes, technologies or methodologies without understanding why and how they work, in the expectation to achieve the same benefits as the role model.
+---
+name: Cargo-Culting
+authors: Tobias, Felix
+done: true
+excerpt_separator: <!--more-->
+layout: pattern
+---
+Adopting processes, technologies or methodologies without understanding why and how they work, in the expectation to achieve the same benefits as the role model.
+<!--more-->
 
 ## Description
 The origin of "cargo culting" goes back to indigenous people living on pacific islands, which were used as air force bases during WWII. These bases mostly got their supplies by air drop. After the military left the islands, the cargo supplies stopped and the indigenous people started to imitate the soldiers' behavior, for example by carving wooden headphones, like the tower staff has worn, or igniting the runway lights at night. This way they hoped to receive supplies again by the spiritual entities they believed the soldiers and cargo planes were.

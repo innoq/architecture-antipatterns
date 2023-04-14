@@ -1,8 +1,12 @@
-# Domain Allergy 🚧
-*Author(s): Stefan*
-
-## Description: What is it, and what are the bad consequences?
-Some architects focus solely on technology, and consider the business problem domain to be somebody else’s boring problem. This is what we call “domain allergy”.
+---
+name: Domain Allergy
+authors: Stefan
+done: false
+excerpt_separator: <!--more-->
+layout: pattern
+---
+Some architects focus solely on technology, and consider the business problem domain to be somebody else’s boring problem.
+<!--more-->
 
 Very often, the perception of the domain being boring is simply wrong. Almost every actual real-life problem has some aspects that make it unique and require very specific solutions. If no architect considers the domain worthy of their attention, some of its challenging aspects won’t get exposed and addressed early. 
 A technical architecture that is chosen for its own sake – e.g. because it provided intellectual stimulation and entertaining work days for the people creating it – won’t be a good match for the actual business problem at hand. It might
