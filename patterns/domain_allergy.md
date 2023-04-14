@@ -9,6 +9,7 @@ A technical architecture that is chosen for its own sake – e.g. because it pro
 * be more complicated than the problem actually demands
 * include solutions for problems that don’t exist in this domain 
 * ignore some of the domain challenges because they have been overlooked
+
 The architects will fail to communicate well with business stakeholders because they don’t speak their language. This will lead to misunderstandings and frustration for both parties.
 
 ## What are some examples?
@@ -25,9 +26,9 @@ A thorough understanding of the business domain and language i.e.[1] should be a
 
 ## What are suggestions to get out of the situation if we ended up in it?
 Most likely, there will be manifestations of other anti-patterns, such as 
-* [Emotional Misattachement](../patterns/emotional_misattachement.md)
+* [Emotional Misattachment](../patterns/emotional_misattachment.md)
 * [Over-Engineering](../patterns/over_engineering.md)
-* [Misapplied Generecity](../patterns/misapplied_generecity.md)
+* [Misapplied Genericity](../patterns/misapplied_genericity.md)
 as a result of Domain Allergy. These will require significant refactoring of existing solutions. 
 
 In contrast, Domain Allergy itself requires “only” a change of mind in the way architects approach their job.
