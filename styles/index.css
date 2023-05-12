@@ -1,16 +1,19 @@
-@import url('/styles/01-base.css');
-@import url('/styles/02-variables.css');
-@import url('/styles/components-button.css');
-@import url('/styles/components-landingpage-header.css');
-@import url('/styles/components-teaser-section.css');
-@import url('/styles/components-footer.css');
-@import url('/styles/components-nav.css');
-@import url('/styles/components-detail-page.css');
-@import url('/styles/components-headings.css');
-@import url('/styles/components-lists.css');
-@import url('/styles/components-paragraph.css');
-@import url('/styles/components-code.css');
-@import url('/styles/components-table.css');
-@import url('/styles/components-quotes.css');
-@import url('/styles/components-links.css');
-@import url('/styles/components-figure.css');
+---
+---
+
+@import url("{{ site.baseurl }}/styles/01-base.css");
+@import url("{{ site.baseurl }}/styles/02-variables.css");
+@import url("{{ site.baseurl }}/styles/components-button.css");
+@import url("{{ site.baseurl }}/styles/components-landingpage-header.css");
+@import url("{{ site.baseurl }}/styles/components-teaser-section.css");
+@import url("{{ site.baseurl }}/styles/components-footer.css");
+@import url("{{ site.baseurl }}/styles/components-nav.css");
+@import url("{{ site.baseurl }}/styles/components-detail-page.css");
+@import url("{{ site.baseurl }}/styles/components-headings.css");
+@import url("{{ site.baseurl }}/styles/components-lists.css");
+@import url("{{ site.baseurl }}/styles/components-paragraph.css");
+@import url("{{ site.baseurl }}/styles/components-code.css");
+@import url("{{ site.baseurl }}/styles/components-table.css");
+@import url("{{ site.baseurl }}/styles/components-quotes.css");
+@import url("{{ site.baseurl }}/styles/components-links.css");
+@import url("{{ site.baseurl }}/styles/components-figure.css");

@@ -1,6 +1,6 @@
 <nav class="main-navigation" role="navigation">
-    <a href="/" class="brand-link">
-        <img src="/lib/img/aa-logo.svg" alt="Architecture Antipatterns Logo" class="brand-logo" />
+    <a href="{{ site.baseurl }}/" class="brand-link">
+        <img src="{{ site.baseurl }}/lib/img/aa-logo.svg" alt="Architecture Antipatterns Logo" class="brand-logo" />
         <span class="link-alt">Architecture Antipatterns Website</span>
     </a>
     <menu-toggle hidden>
@@ -15,7 +15,7 @@
                     </summary>
                     <ul role="list" aria-label="Antipatterns Untermenü">
                         {% for pattern in site.patterns %}
-                        <li><a href="{{ pattern.url }}">{{ pattern.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ pattern.url }}">{{ pattern.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </details>
@@ -29,7 +29,7 @@
                     </summary>
                     <ul role="list" aria-label="Case Studies Untermenü">
                         {% for study in site.case_studies %}
-                        <li><a href="{{ study.url }}">{{ study.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ study.url }}">{{ study.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </details>
