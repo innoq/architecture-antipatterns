@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.footer p {
+  margin-bottom: var(--spacer-sm);
+}
+
 .footer--black {
   background-color: var(--brand-black);
 }
@@ -35,7 +39,6 @@
   width: var(--spacer-xxl);
   height: auto;
   align-content: center;
-  margin-top: var(--spacer-sm);
 }
 
 .footer__textlink {
@@ -66,7 +69,6 @@
   .footer__logo {
     width: var(--spacer-xxxxl);
     height: auto;
-    margin-top: var(--spacer-base);
   }
 
   .footer__textlink {
