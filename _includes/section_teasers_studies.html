@@ -1,0 +1,10 @@
+<section id="teaser-casestudies" class="stripe stripe--white">
+    <div class="landingpage-teaser-section__wrapper">
+        <h2 class="landingpage-teaser-section__title landingpage-teaser-section__title--blue">Case Studies and Examples</h2>
+        <div class="landingpage-teaser-section__grid">
+            {% for study in site.case_studies %}
+            {% include teaser_study.html %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

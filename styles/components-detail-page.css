@@ -1,0 +1,13 @@
+/* general */
+.detail-page {
+  display: flex;
+  max-width: var(--content-width-md);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--spacer-xl) var(--spacer-sm) var(--spacer-xl) var(--spacer-sm);
+  margin: 0 auto;
+}
+
+.detail-page > * + * {
+  margin-top: var(--spacer-sm);
+}

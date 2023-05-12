@@ -1,0 +1,45 @@
+blockquote {
+  padding: var(--spacer-sm);
+  margin: 0;
+  color: var(--brand-blue1);
+  quotes: '„' '“' '‚' '‘';
+  text-align: center;
+}
+
+blockquote p {
+  font-size: var(--font-size-base);
+  line-height: var(--paragraph-line-height);
+}
+
+blockquote p::before,
+blockquote p::after {
+  display: inline-block;
+}
+
+blockquote p::after {
+  content: close-quote;
+}
+
+blockquote p::before {
+  content: open-quote;
+}
+
+cite {
+  margin-top: var(--spacer-xs);
+  color: var(--brand-black);
+  font-size: var(--font-size-sm);
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+@media screen and (min-width: 48rem) {
+  blockquote p {
+    font-size: var(--font-size-md);
+    line-height: var(--paragraph-line-height);
+  }
+
+  cite {
+    font-size: var(--font-size-base);
+  }
+}

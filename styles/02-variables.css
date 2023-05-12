@@ -1,0 +1,57 @@
+:root {
+  /* Colors */
+  --brand-grey1: #f8f8f8;
+  --brand-grey2: #d8d8d8;
+  --brand-black: #08172d;
+  --brand-white: #fff;
+  --brand-purple1: #5732ce;
+  --brand-purple2: #7e62ff;
+  --brand-purple3: #9660d7;
+  --brand-blue1: #118eff;
+  --brand-blue2: #07bcfa;
+  --brand-blue3: #04dcf9;
+
+  /* Typographie https://www.modularscale.com/?1&rem&1.2 based on modular scale */
+  --font-size-3xl: 4.3rem; /* 69px */
+  --font-size-2xl: 2.986rem;
+  --font-size-xl: 2.488rem;
+  --font-size-lg: 2.074rem; /* 33px */
+  --font-size-md: 1.728rem;
+  --font-size-base: 1.2rem; /* 20px */
+  --font-size-sm: 0.694rem; /* 11px */
+  --font-size-xs: 0.578rem;
+  --font-size-xxs: 0.482rem;
+  --paragraph-line-height: 1.52;
+  --heading-line-height: 1.2;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Spacings also based on modular scale */
+
+  --spacer-xxxxl: 10.699rem; /* ...px */
+  --spacer-xxxl: 8.916rem; /* ...px */
+  --spacer-xxl: 7.43rem; /* 119px */
+  --spacer-xl: 3.583rem; /* 57px */
+  --spacer-lg: 2.986rem; /* 48px */
+  --spacer-base: 2.074rem; /* 33px */
+  --spacer-md: 1.44rem; /* 23px */
+  --spacer-sm: 1rem; /* 16px */
+  --spacer-xs: 0.578rem; /* 9px */
+  --spacer-xxs: 0.335rem; /* 5px */
+
+  /* Content Width */
+
+  --content-width-xl: 90.25rem; /* 1444 px Full Width */
+  --content-width-lg: 60rem;
+  --content-width-md: 50rem;
+
+  /* Figcaption spacing */
+
+  --figcaption-spacing: var(--spacer-xs);
+
+  /* Breakpoints
+  Leider werden Custom Properties in Media Queries noch nicht unterstützt.
+  Daher sind diese Variablen nur zur Dokumentation und Referenz */
+
+  /* --breakpoint-md: 48rem; */
+}

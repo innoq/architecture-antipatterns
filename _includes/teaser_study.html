@@ -1,0 +1,9 @@
+<div class="teaser-card teaser-card--blue">
+    <div class="teaser-card__body">
+        <h3 class="teaser-card__title">{{ study.title }}{%- if study.done != true -%}&nbsp;🚧{%- endif -%}</h3>
+        <p class="teaser-card__text">{{ study.excerpt }}</p>
+    </div>
+    <div class="teaser-card__footer teaser-card_footer--blue">
+        <a class="teaser-card__button teaser-card__button--blue" href="{{ study.url }}">Read more</a>
+    </div>
+</div>

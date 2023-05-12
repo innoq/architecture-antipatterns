@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<main class="detail-page">
+    <h1>Case Study: {{ page.title }}{%- if page.done != true -%}&nbsp;🚧{%- endif -%}</h1>
+    <p>Author(s): {{ page.authors }}</p>
+    {{ content }}
+</main>

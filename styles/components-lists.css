@@ -1,0 +1,50 @@
+ol,
+ul {
+  font-size: var(--font-size-base);
+  line-height: var(--paragraph-line-height);
+  list-style-position: outside;
+}
+
+ul > * + *,
+ol > * + * {
+  margin-top: var(--spacer-xxs);
+}
+
+ul {
+  padding: 0;
+  margin-left: var(--spacer-xs);
+  list-style: none;
+  list-style-type: '●';
+}
+
+ul li {
+  padding-left: var(--spacer-xxs);
+  font-size: var(--font-size-base);
+}
+
+ul li::marker {
+  color: var(--brand-blue3);
+  font-size: var(--font-size-base);
+}
+
+ul li ul {
+  margin-left: var(--spacer-sm);
+}
+
+ul li ul li::marker {
+  color: var(--brand-purple3);
+  font-size: var(--font-size-base);
+}
+
+ol {
+  padding-left: var(--spacer-md);
+}
+
+ol li {
+  padding-left: 0;
+}
+
+ol li::marker {
+  color: var(--brand-blue1);
+  font-weight: var(--font-weight-bold);
+}
