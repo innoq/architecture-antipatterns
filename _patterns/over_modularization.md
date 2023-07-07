@@ -11,6 +11,7 @@ Software projects are divided into several modules at run time (e.g. services, l
 - Cutting Maven modules or packages too small.
 - Cutting microservices/nanoservices/lambdas too small.
 - Temporal coupling of modules.
+- [Splitting a checkout system into too many services](../case_studies/splitting_a_checkout_system.html)
 
 
 ## Why does this happen?

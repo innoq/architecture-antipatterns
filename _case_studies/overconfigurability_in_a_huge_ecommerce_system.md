@@ -1,7 +1,7 @@
 ---
 title: Over-Configurability in a (huuuuge) eCommerce System
 authors: Gernot, Christine
-done: false
+done: true
 excerpt_separator: <!--more-->
 layout: study
 ---
@@ -40,12 +40,11 @@ To make flexibility even more intense, the developers included more than 300 (!)
 * Multi-Paradigm Development: Specific technologies enabled fast prototyping/development of difficult features
 * Integration of (too?) many existing systems -> fast time-to-market, quick integration is faster (in the short term) than a “solid” integration
 
-
 ## What were the bad consequences, why was everything bad?
 Overly large and heterogeneous development team (>150 persons from different companies), making development very expensive (and slow, see below)
-Time-to-market became slower and slower, due to 
-overwhelming complexity of the overall system
-organizational dependencies between sub-teams
+Time-to-market became slower and slower, due to:
+* overwhelming complexity of the overall system
+* organizational dependencies between sub-teams
 
 Lack of persistent knowledge about the system and its operation (missing overview-documentation)
 No overview of configuration options (the official feature-toggle documentation covered only 50% of the more than 300 existing toggles)
@@ -55,4 +54,4 @@ Many regression errors (errors that surfaced again, although they had already be
 
 
 ## Which patterns were encountered?
-(optional: How was the situation resolved?)
+* Configurability Fallacy

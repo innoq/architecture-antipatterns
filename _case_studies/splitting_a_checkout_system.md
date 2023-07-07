@@ -25,4 +25,5 @@ The second problem was the dependency between the services, because any change i
 
 ## Which patterns were encountered?
 * [Over-Engineering](../patterns/over_engineering.html)
+* [Over-Modularization](../patterns/over_modularization.html)
 * Layerism
