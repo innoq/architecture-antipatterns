@@ -1,25 +1,41 @@
 ---
 title: Over-Engineering
-authors: ???
+authors: Andreas, Jacek and Christian
 done: false
 excerpt_separator: <!--more-->
 layout: pattern
 ---
-Ein Problem wird mit einer zu komplexen technischen Lösung angegangen, anstatt eine einfachere, dem Ziel dienlichere Alternative zu wählen.<!--more-->
+Systems have an unnecessary complex architecture. A simpler approach would be sufficiant to fullfill the business requirements.<!--more-->
 
-## Description: What is it, and what are the bad consequences?
-Oft kommt es vor, dass Architekt*innen eine für das Problem zu komplexe Lösungsstrategie wählen, anstatt sich auf eine einfachere, möglicherweise aber nicht so „trendige“ Vorgehensweise festzulegen. Dieses Vorgehen führt häufig zu folgenden Problemen:
+Architects may tend to choose cutting edge technologies, frameworks and concepts for new projects. This might lead to the following problems:
+* The developers have to spend more time and mental capacity on understanding the used concepts and technologies. Therefore, development might take longer.
+* Logically dependent code might get scattered over several files or modules. Additional framework specific code might reduce readability. This makes code harder to reason about, more fragile and in the result harder to maintain.
 
-Die Software wird schwer wartbar, da einfache Konzepte mit viel Komplexität verbogen werden und kaum identifizierbar sind.
-Die Architektur kann nur deshalb eingeführt werden, weil sie dem aktuellen Trend entspricht “und man das so macht”. Dies hat allerdings meist ein fragiles, kaum wartbares System zur Folge, da die grundlegenden Konzepte nicht verstanden werden.
-Durch den Fokus auf die Komplexität werden die eigentlich wichtigen Businessfunktionen spät und / oder fehlerhaft geliefert, da man sich in den technischen Konzepten verrennt.
+Due to the focus on technology, business logic could be implemented later and/or with bugs. See [Domain Allergy](../patterns/domain_allergy.html)
 
 ## What are some examples?
-Aufteilung eines Kassensystems in zu viele Services
+Division of a cash system into too many services
 - [Generic Product model for 12 insurance products](../case_studies/generic_product_model_for_12_insurance_products.html)
 
-
 ## Why does this happen?
+Many developers have a natural curiosity for new concepts, technologies and frameworks. They like to try these out without considering, if they fit the problem domain. Furthermore, some developers prematurely optimize software for:
+* flexibility: e.g. too generic software [Misapplied Genericity](../patterns/misapplied_genericity.html)
+* extendability: e.g. building a framework instead of a single solution
+* scalability: e.g. optimizing for high load without current demand
+
+Other developers have a need for change. They don't want to use the same approach over and over again.
+They want to gain practical experience with new technologies.
+
 ## How can we avoid getting into the situation in the first place?
+* Keep solutions as simple as possible (KISS)
+* Optimize only if required
+* only implement for current requirements not for possible future requirements
+* audit the requirements to address the actual problems of the business
+* use [innovation tokens](https://www.innoq.com/de/articles/2017/06/innovation-tokens/)
+
+Sometimes problems don't need to be solved with software. Instead processes in the business could be changed.
+
 ## What are suggestions to get out of the situation if we ended up in it?
+
+Refactor or rewrite application.
 
