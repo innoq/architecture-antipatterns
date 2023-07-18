@@ -84,6 +84,7 @@
 .main-navigation .brand-link:focus,
 .skip-link:focus {
   color: var(--brand-blue1);
+  border-color: var(--brand-white);
   outline: 2px solid var(--brand-black);
 }
 
@@ -96,6 +97,7 @@
 .main-navigation .brand-link:focus-visible,
 .skip-link:focus-visible {
   color: var(--brand-blue1);
+  border-color: var(--brand-white);
   outline: 2px solid var(--brand-black);
 }
 
@@ -291,10 +293,10 @@
 /* Breakpoints */
 @media (min-width: 925px) {
   .main-navigation {
-    --navbar-toggler-width: var(--forced-colors-navbar-toggler-width, calc((2px * 2) + (24px * 3)));
+    --navbar-margin-width: calc((100% - var(--content-width-xl)) / 2);
 
-    grid-template-areas: 'brand nav nav nav';
-    grid-template-columns: var(--navbar-toggler-width) 1fr 1fr 1fr var(--navbar-toggler-width);
+    grid-template-areas: '. brand nav .';
+    grid-template-columns: var(--navbar-margin-width) min-content 1fr var(--navbar-margin-width);
   }
 
   .main-navigation .brand-link {
@@ -307,9 +309,15 @@
 
   .main-navigation .navigation-links {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 0 12px;
     background-color: var(--brand-black);
+    gap: 24px;
+  }
+
+  .main-navigation .navigation-links li {
+    display: flex;
+    justify-content: center;
   }
 
   .main-navigation .navigation-links a {
@@ -327,6 +335,7 @@
     margin-top: 0;
   }
 
+  .main-navigation .navigation-links > :nth-last-child(2),
   .main-navigation .navigation-links > :last-child {
     --submenu-position-right: 0;
 
@@ -354,6 +363,7 @@
 
   .main-navigation sub-menu > button {
     grid-area: button;
+    align-self: end;
   }
 
   .main-navigation sub-menu > div {
@@ -401,19 +411,6 @@
   }
 }
 
-@media (min-width: 90.25rem) {
-  .main-navigation {
-    grid-template-areas: 'brand . . nav nav nav';
-    grid-template-columns:
-      1fr var(--navbar-toggler-width) calc((90.25rem - 10rem - var(--navbar-toggler-width) * 2) * 0.5)
-      10rem calc((90.25rem - 10rem - var(--navbar-toggler-width) * 2) * 0.5) var(--navbar-toggler-width) 1fr;
-  }
-
-  .main-navigation .navigation-links {
-    gap: 24px;
-  }
-}
-
 /* Accessibility */
 @media (prefers-reduced-motion: no-preference) {
   .main-navigation {
@@ -427,7 +424,6 @@
     --forced-colors-link-border-width: 0;
     --forced-colors-action-margin: 2px;
     --forced-colors-link-decoration: underline;
-    --forced-colors-navbar-toggler-width: 10rem;
   }
 
   .main-navigation .link-alt {
