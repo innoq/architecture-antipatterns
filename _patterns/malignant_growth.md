@@ -18,7 +18,7 @@ Software systems tend to grow over time. New features are added, additional appl
 ## Why does this happen?
 - A lack of planning and coordination, uncontrolled growth
 - When problems are solved with temporary solutions
-- too few changes to the original architecture
+- Too few changes to the original architecture
   > When designers are faced with a choice between building something elegant from the ground up, or undermining the architecture of the existing system to quickly address a problem, architecture usually loses. [Piecemeal Growth]
 - A lack of architecture and technology knowledge/experience
   > In the software world, we deploy our most skilled, experienced people early in the lifecycle. Later on, maintenance is relegated to junior staff, when resources can be scarce. The so-called maintenance phase is the part of the lifecycle in which the price of the fiction of master planning is really paid. It is maintenance programmers who are called upon to bear the burden of coping with the ever widening divergence between fixed designs and a continuously changing world. If the hypothesis that architectural insight emerges late in the lifecycle is correct, then this practice should be reconsidered. [Piecemeal Growth]
@@ -29,15 +29,15 @@ Software systems tend to grow over time. New features are added, additional appl
 - > A certain amount of up-front planning and design is not only important, but inevitable [Piecemeal Growth]
 - Do internal and external reviews regularly to get _feedback_ about your system
 - Use the feedback to steer the system's evolution
-- Do changes in small, manageable chunks (piecemeal growth)
+- Do changes in small, manageable chunks [Piecemeal Growth]
 - Continuous integration
 - No separate development and maintenance team
 - Refactoring, as soon as needed
 
 ## What are suggestions to get out of the situation if we ended up in it?
-- consolidation and refactoring
-- get an external architecture review, apply proposals for improvement
-- start from scratch
+- Consolidation and refactoring
+- Get an external architecture review, apply proposals for improvement
+- Start from scratch
 
 ## Related Patterns
 - [Big Ball of Mud]
