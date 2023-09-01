@@ -1,7 +1,7 @@
 ---
 title: Emotional Attachment
-authors: ???
-done: false
+authors: Tobias
+done: true
 excerpt_separator: <!--more-->
 layout: pattern
 ---
@@ -15,8 +15,7 @@ It should be mentioned that an emotional bond can also have positive sides. For 
 - Sticking to a poorly functioning platform / decision
 - Developers seeing the system as their "baby"
 - Legacy systems based on outdated technologies
-
-🚧 missing examples in case studies 🚧
+- [Reusing well known but unsuitable software for a new task](../case_studies/using_a_bpmn_engine_for_everything.html)
 
 ## Why does this happen?
 - Fear of losing face when changing an architectural approach or technology

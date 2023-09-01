@@ -1,7 +1,7 @@
 ---
 title: Under-Modularization
 authors: Andreas, Theo, Christian, Felix
-done: false
+done: true
 excerpt_separator: <!--more-->
 layout: pattern
 ---
@@ -11,8 +11,7 @@ Software systems are divided into too few modules at run time (e.g. containers) 
 ## What are some examples?
 - [Big Ball of Mud]
 - certain monolithic applications
-
-🚧 missing examples in case studies 🚧
+- [Two huge domain classes represent all legal forms for companies, unions and foundations](../case_studies/two_huge_domain_classes_represent_all_legal_forms_for_companies_unions_and_foundations.html)
 
 ## Why does this happen?
 - Old project structures. E.g. certain COBOL applications.
