@@ -1,7 +1,7 @@
 ---
 title: Domain Allergy
 authors: Stefan
-done: false
+done: true
 excerpt_separator: <!--more-->
 layout: pattern
 ---
@@ -17,10 +17,8 @@ A technical architecture that is chosen for its own sake – e.g. because it pro
 The architects will fail to communicate well with business stakeholders because they don’t speak their language. This will lead to misunderstandings and frustration for both parties.
 
 ## What are some examples?
-- Two huge domain classes represent all legal forms for companies, unions and foundations
+- [Two huge domain classes represent all legal forms for companies, unions and foundations](../case_studies/two_huge_domain_classes_represent_all_legal_forms_for_companies_unions_and_foundations.html)
 - Rating application based on generic thing machine
-
-🚧 missing examples in case studies 🚧
 
 ## Why does this happen?
 Architects very often share a passion for working on technical interesting, challenging problems. They want to work with something that hasn’t been used a thousand times already, want to build something that is truly innovative, and explore new and exciting options to solve problems. Some projects don't seem to offer domain- or business challenges for architects, because they lack deeper understanding of the business domain, because they perceive the business domain as boring.
