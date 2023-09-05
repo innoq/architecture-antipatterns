@@ -13,10 +13,15 @@ Führt zu einer stärkeren Kopplung zwischen Services und Aufrufer und eine schw
 Reduzierter Wartbarkeit, alle Clients müssen vorbereitet werden.
 Geringerer Mehrwert des Services
 
+Weiterer Punkt Security: 
+Die API wird erweitert und angreifbarer, Man-in-the-middle Attacken, Ausnutzen von Implementierungsdetails etc.
+
+
 ## What are some examples?
 - CRUD Services
 - GraphQL
-
+- Firebase?
+ 
 ## Why does this happen?
 - 
 
