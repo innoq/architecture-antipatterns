@@ -22,8 +22,8 @@ A data analytics platform - within a larger system - used basically every single
 * The integration with the webshop was painful. Every webshop team followed certain patterns except the data team. Everyone working on architectural concerns always had to think about two approaches, which is unnecessary expensive.
 
 ## Which patterns were encountered?
-
+* [Emotional Misattachment](../patterns/emotional_misattachment.html)
 
 ## How was the situation resolved?
 * The recommendation engine had to be rewritten using the technology stack and architecture of the webshop
-* The rest of the data analytics platform remained, not resolving the problems. Currently, they think about throwing the whole system away and replacing it with a data mesh using the technology stack of the webshop. 
+* The rest of the data analytics platform remained, not resolving the problems.
