@@ -1,7 +1,7 @@
 ---
 title: Splitting a checkout system into too many services
 authors: Tobias
-done: false
+done: true
 excerpt_separator: <!--more-->
 layout: study
 ---
