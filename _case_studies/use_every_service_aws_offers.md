@@ -23,6 +23,8 @@ A data analytics platform - within a larger system - used basically every single
 
 ## Which patterns were encountered?
 * [Emotional Misattachment](../patterns/emotional_misattachment.html)
+* Conference Driven Development
+* Vendor Driven Architecture
 
 ## How was the situation resolved?
 * The recommendation engine had to be rewritten using the technology stack and architecture of the webshop
