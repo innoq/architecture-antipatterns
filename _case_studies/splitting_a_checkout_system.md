@@ -23,7 +23,17 @@ Also any communication to this service got ever more error prone because of inco
 
 The second problem was the dependency between the services, because any change in some "basic" service or adapter to the legacy system led a number of changes in all other services which were built upon this service. So for one little feature, the whole system hat to be adapted, all changed services had to be deployed simultaneously in the correct order and one developer had to work on different repositories.
 
+## How could the situation be resolved?
+
+Checkout systems require a consistent state. This system, however, was implemented as a distributed system with eventual consistancy. Implementing eventual consistancy is hard to get right and often results in error prone and difficult to maintain code. A possible solution would be to implement the checkout system as a "modulith" which uses local transactions. This new system would be much easier to maintain and could be scaled, too.
+
+The "Layerism" would be solved too, since there is no need for network calls between the modules of the application anymore. This would also enable the application to abstract the access to the legacy system by having a single adapter instead of independent services.
+
+The bad decisions were caused by "hype-driven-development" and the functional and non-functional requirements of the checkout system were partly ignored.
+
+
 ## Which patterns were encountered?
 * [Over-Engineering](../patterns/over_engineering.html)
 * [Over-Modularization](../patterns/over_modularization.html)
+* Conference Driven Development
 * Layerism
