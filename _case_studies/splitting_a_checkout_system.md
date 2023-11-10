@@ -35,4 +35,5 @@ The bad decisions were caused by "hype-driven-development" and the functional an
 ## Which patterns were encountered?
 * [Over-Engineering](../patterns/over_engineering.html)
 * [Over-Modularization](../patterns/over_modularization.html)
+* Conference Driven Development
 * Layerism
