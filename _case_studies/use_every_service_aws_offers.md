@@ -1,7 +1,7 @@
 ---
 title: Use every service AWS offers
 authors: Sven
-done: false
+done: true
 excerpt_separator: <!--more-->
 layout: study
 ---
