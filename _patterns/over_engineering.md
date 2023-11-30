@@ -5,7 +5,7 @@ done: true
 excerpt_separator: <!--more-->
 layout: pattern
 ---
-Systems have an unnecessary complex architecture. A simpler approach would be sufficiant to fullfill the business requirements.<!--more-->
+Systems have an unnecessary complex architecture. A simpler approach would be sufficient to fulfill the business requirements.<!--more-->
 
 Architects may tend to choose cutting edge technologies, frameworks and concepts for new projects. This might lead to the following problems:
 * The developers have to spend more time and mental capacity on understanding the used concepts and technologies. Therefore, development might take longer.
@@ -33,9 +33,8 @@ They want to gain practical experience with new technologies.
 * audit the requirements to address the actual problems of the business
 * use [innovation tokens](https://www.innoq.com/de/articles/2017/06/innovation-tokens/)
 
-Sometimes problems don't need to be solved with software. Instead processes in the business could be changed.
+Sometimes problems don't need to be solved with software. Instead, processes in the business could be changed.
 
 ## What are suggestions to get out of the situation if we ended up in it?
 
-Refactor or rewrite application.
-
+Refactor or rewrite the application.
