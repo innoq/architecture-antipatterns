@@ -12,7 +12,7 @@ We have a very specific problem to solve, and we don’t only want to solve this
 Unfortunately it doesn’t work that way, and we will end up with a very bad solution for our specific problem and a very bad solution of our future problems. When we look how researches find generic solutions to a problem class, then we see that they always find a specific solution which only works for one specific problem. If that works, they try the solution for another problem of the same problem class. If that works, usually after a few adaptions, they see a clearer picture of solution space. But still, they find another problem of that problem class and try to solve it until they know that they have found a generic solution. In software, we often hear the term “use before reuse”, which works similar. First solve your very specific problem and if that works you may think about a solution which might be reusable. If we start too early with a generic solution of a problem we do not fully understand yet, we cannot find a good solution.
 
 ## What are some examples?
-- [The Insurance App Productline for 100+ countries](../case_studies/the_insurance_app_productline_for_100+_countries.html)
+- [The Financial Company App Productline for 100+ countries](../case_studies/the_financial_company_app_productline_for_100+_countries.html)
 - [Super-generic framework in logistics](../case_studies/super_generic_framework_in_logistics.html)
 - [Global ecommerce B2B offering](../case_studies/global_ecommerce_b2b_offering.html)
 - [Generic Product model for 12 insurance products](../case_studies/generic_product_model_for_12_insurance_products.html)
