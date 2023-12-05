@@ -12,8 +12,8 @@ A large financial corporation developed one mobile app product line for all thei
 * Hybrid App (native code and web view)
 * World-wide market
 * App Productline developed by newly created digital department in the headquarters
-* The digital factory designed a worldwide generic data model and API that the App consumed. The API’s implementation was done by the various countries, which had to map their data model to the generic one
-* Highly political: a German board member promised a global board member that Germany will implement the backend for the App
+* The digital headquarters designed a worldwide generic data model and API that the App consumed. The API’s implementation was done by the various countries, which had to map their data model to the generic one
+* Highly political: a local board member promised a global board member that Germany will implement the backend for the App
 
 ## What was the good idea?
 The idea behind the App was the belief that it can be developed once and centrally and could be used by 100+ countries. So not every country develops the App itself, but uses a configurable problem.
@@ -26,7 +26,7 @@ There was the belief that fancy and expensive features such as chatbots would be
 * Variability engineering has been solved by mixing webviews with native App development. That create a bad user experience. Mixing webviews and native code also broke authentication, which was sold from the App development team as a feature, not a bug. 
 * The approach they selected for domain and variability engineering for product lines has been deprecated since 2007, because it never worked. There was absolutely no knowledge about building product lines and that “non knowledge” was not known to the team. They thought they do the right thing and never questioned the approach or asked experts (Knowledge Tunneling).
 * Every little new feature you wanted from the product line required to be put on the roadmap and prioritized. If you have 100+ countries, this becomes a crazy bottleneck. However, Germany was high prio, so we got tiny features within 6 months (Centralisation bottleneck).
-* The generic app also had a generic “middleware” which did something no one understood. Everything was secret. The business case for the “middleware” required that operations of that “middleware” needed to be done by Indians which needed to access the production environment in Spain and France. Since german law requires certain financial company data to be in Germany, the whole production environment for that “middleware” had to be recreated for Germany only. Of course on an extra invoice for the german branch (Misapplied genericity).
+* The generic app also had a generic “middleware” which did something no one understood. Everything was secret. The business case for the “middleware” required that operations of that “middleware” needed to be done by Indians which needed to access the production environment in countries outsides of Germany. Since german law requires certain financial company data to be in Germany, the whole production environment for that “middleware” had to be recreated for Germany only. Of course on an extra invoice for the german branch (Misapplied genericity).
 * Sunk cost fallacy: after millions have been spent, more millions have been spent to save the project. The whole project was the idea of the new digital lead and he got buy-in from several board members (Emotional misattachment).
 * Developing a new feature required efforts on several layers (app, middleware, backend), which have been developed by different teams in different countries (Horizontalism, Generic Conway Failure).
 
@@ -40,4 +40,4 @@ There was the belief that fancy and expensive features such as chatbots would be
 
 ## How was the situation resolved?
 * Project has been restarted: large countries developed the App on their own. Small countries use it as their default App as planned.
-* App rating for the German App improved dramatically from almost 1.5 stars to more than 4.5 stars
+* App rating for the German App improved by almost three stars
