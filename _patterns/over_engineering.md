@@ -14,7 +14,7 @@ Architects may tend to choose cutting edge technologies, frameworks and concepts
 Due to the focus on technology, business logic could be implemented later and/or with bugs. See [Domain Allergy](../patterns/domain_allergy.html)
 
 ## What are some examples?
-Division of a cash system into too many services
+- [Splitting a checkout system into too many services](../case_studies/splitting_a_checkout_system.html)
 - [Generic Product model for 12 insurance products](../case_studies/generic_product_model_for_12_insurance_products.html)
 
 ## Why does this happen?

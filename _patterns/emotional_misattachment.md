@@ -7,13 +7,13 @@ layout: pattern
 ---
 Very often, people involved in software development have certain preferences for frameworks, programming languages, or architectural approaches to which they cling, regardless of whether these preferences solve the current problem.<!--more--> Likewise, people may become emotionally attached to a solution because they have struggled with other approaches in the past and do not want to repeat that experience. Or the other way around, people may become emotionally attached to a solution because the team came up with a good solution and want to stick to it. The crucial aspect here is the emotional part, which leads to sticking to certain solutions.
 
-It should be mentioned that an emotional bond can also have positive sides. For example often a positive emotional attachment to a product in which someone is involved has a positive effect on the product itself. It becomes problematic when decisions are made for emotional reasons and objective facts are ignored. 
+It should be mentioned that an emotional bond can also have positive sides. For example, often a positive emotional attachment to a product in which someone is involved has a positive effect on the product itself. It becomes problematic when decisions are made for emotional reasons and objective facts are ignored. 
 
 ## What are some examples?
 - Binding to an ecosystem
 - Building a self-made framework instead of using an existing one
 - Sticking to a poorly functioning platform / decision
-- Developers seeing the system as their "baby"
+- Developers see the system as their "baby"
 - Legacy systems based on outdated technologies
 - [Reusing well known but unsuitable software for a new task](../case_studies/using_a_bpmn_engine_for_everything.html)
 
@@ -27,8 +27,8 @@ It should be mentioned that an emotional bond can also have positive sides. For 
 - Be very convinced of a manufacturer without evaluating the concrete solution
 
 ## How can we avoid getting into the situation in the first place?
-- Create a regular evaluation/review loop for made decisions
-- Create safe space to reduce emotional aspect
+- Create a regular evaluation/review loop for making decisions
+- Create a safe space to reduce the emotional aspects
 - Use of objective/neutral evaluation templates
 - Obtain a neutral opinion
 - Clarify that reevaluating is not a personal devaluation of an existing solution
