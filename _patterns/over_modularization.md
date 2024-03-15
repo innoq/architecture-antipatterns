@@ -39,5 +39,3 @@ Software projects are divided into several modules at run time (e.g. services, l
 ## Related Patterns
 - [Cargo-Culting](../patterns/cargo_culting.html)
 - [Under-Modularization](../patterns/under_modularization.html)
-
-[Yagni]: https://www.martinfowler.com/bliki/Yagni.html
