@@ -27,7 +27,7 @@ Software projects are divided into several modules at run time (e.g. services, l
 
 ## How can we avoid getting into the situation in the first place?
 - Try to have few meaningful modules which emphasize important architectural boundaries. Cut your modules by bounded contexts. (Domain-driven Design)
-- [Yagni]: Don't split your project into more modules until you need to.
+- [Yagni](https://www.martinfowler.com/bliki/Yagni.html): Don't split your project into more modules until you need to.
 - Reevaluate the project's modularization periodically and refactor your software accordingly. Start early, later will be harder.
 
 
