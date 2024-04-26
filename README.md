@@ -34,7 +34,7 @@ Provide a good title and describe what you want to change and why.
 The current authors of the website meet every two weeks and will review your PR.
 
 #### 7. You get mentioned
-When your PR is accepted, you will get mentioned as author/contributor.
+When your PR is accepted, you will get mentioned as author/contributor. Contributors will get mentioned in this README. Authors will have a picture on the site.
 
 #### 8. Become a member 🏆🏆
 _Bonus_: When you are a regular author, you can join our review meetings.
@@ -57,3 +57,13 @@ _Bonus_: When you are a regular author, you can join our review meetings.
 * Which patterns were encountered? (optional: How was the situation resolved or if we had a suggestion for a solution, which was not implemented, what was it?)
 * What happened, was there a turning or tipping point?
 * How was the situation resolved
+
+
+
+
+
+# Contributors
+Thank you for your contribution:
+[Maik Toepfer](https://github.com/samba2)
+[Patrick Gebert](https://github.com/pgebert)
+[Till Lorentzen](https://github.com/soneyworld)
