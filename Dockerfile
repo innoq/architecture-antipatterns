@@ -35,4 +35,4 @@ COPY . /app/
 RUN ruby --version && bundle --version && gem install bundler jekyll && bundle install
 EXPOSE 4000/tcp
 # Command to run when the container starts
-CMD bundler exec jekyll serve
+CMD bundler exec jekyll serve --host 0.0.0.0
