@@ -1,5 +1,5 @@
 ---
-title: Cargo-Culting
+title: Blind Pattern Following (formerly Cargo-Culting)
 authors: Tobias, Felix
 done: true
 excerpt_separator: <!--more-->
@@ -9,7 +9,7 @@ Adopting processes, technologies or methodologies without understanding why and 
 <!--more-->
 
 ## Description
-The origin of "cargo culting" goes back to indigenous people living on pacific islands, which were used as air force bases during WWII. These bases mostly got their supplies by air drop. After the military left the islands, the cargo supplies stopped and the indigenous people started to imitate the soldiers' behavior, for example by carving wooden headphones, like the tower staff has worn, or igniting the runway lights at night. This way they hoped to receive supplies again by the spiritual entities they believed the soldiers and cargo planes were.
+The origin of the term "cargo culting" goes back to scientists around the year 1950, describing indigenous people living on pacific islands, which were used as air force bases during WWII. These bases mostly got their supplies by air drop. After the military left the islands, the cargo supplies stopped and the indigenous people, according to those scientists, started to imitate the soldiers' behavior, for example by carving wooden headphones, like the tower staff has worn, or igniting the runway lights at night. The scientists assumed that this way the indigenous people hoped to receive supplies again by the spiritual entities they believed the soldiers and cargo planes were. Today the term is viewed critically because of its colonialist connotations.
 
 In modern IT this behavior can be observed again. The "Cargo cult" describes the adoption of behavior – which is presented by role models – to achieve the same benefits, without understanding the reasons and motivations behind the decisions made in the first place.
 
